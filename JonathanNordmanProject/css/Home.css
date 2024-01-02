@@ -1,0 +1,29 @@
+﻿i {
+    background-color: var(--accent1-color);
+    font-weight: 900;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+#demo {
+    height: 200px;
+}
+
+.content {
+    margin: 40px;
+    text-shadow: 1px black;
+
+}
+
+#container {
+    margin-top: 20px;
+}
+
+
+h1 {
+    line-height: 45px;
+}
+
+#dot {
+    color: var(--accent1-color);
+}
