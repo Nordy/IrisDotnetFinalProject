@@ -1,5 +1,11 @@
 ﻿@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Hebrew:wght@300&display=swap');
 
+@media (prefers-color-scheme: light) {
+    :root {
+        --text-color: rgb(52, 52, 52); /* dark gray */
+        --background-color: rgb(223, 223, 223); /* white */
+    }
+}
 :root {
  
     --background-color: rgb(52, 52, 52); /* dark gray */
@@ -8,14 +14,7 @@
     --accent1-color: rgb(95, 89, 128); /* blue */
     --accent2-color: rgb(12, 131, 70); /* green */
     --accent3-color: rgb(141, 167, 190); /* light blue */
-
-}
-
-@media (prefers-color-scheme: white) {
-    :root {
-        --text-color: rgb(52, 52, 52); /* dark gray */
-        --background-color: rgb(223, 223, 223); /* white */
-    }
+    
 }
 
 ::-moz-selection {

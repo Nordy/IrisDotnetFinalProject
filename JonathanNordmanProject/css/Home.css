@@ -5,9 +5,23 @@
     border-radius: 20px;
 }
 
-#demo {
-    height: 200px;
+@media (prefers-color-scheme: light) {
+    #demo {
+        background: url("../images/logo-dark.png");
+    }
 }
+
+#demo {
+    height: 150px;
+    width: 150px;
+    background: url("../images/logo-bright.png");
+    background-clip: border-box;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
 
 .content {
     margin: 40px;
@@ -27,3 +41,21 @@ h1 {
 #dot {
     color: var(--accent1-color);
 }
+
+#details {
+    background-color: var(--accent1-color);
+    color: rgb(223, 223, 223);
+    width: 100%;
+    flex-direction: row;
+}
+
+.det {
+    text-align: center;
+    width: 20%;
+    height: 200px;
+    border: 2px solid rgb(223, 223, 223);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
