@@ -5,32 +5,22 @@
     border-radius: 20px;
 }
 
-@media (prefers-color-scheme: light) {
-    #demo {
-        background: url("../images/logo-dark.png");
-    }
-}
+
 
 #demo {
-    height: 150px;
-    width: 150px;
-    background: url("../images/logo-bright.png");
-    background-clip: border-box;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
+    height: 100px;
 }
+
 
 
 
 .content {
     margin: 40px;
-    text-shadow: 1px black;
 
 }
 
 #container {
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 
@@ -52,10 +42,20 @@ h1 {
 .det {
     text-align: center;
     width: 20%;
-    height: 200px;
     border: 2px solid rgb(223, 223, 223);
     margin: 10px;
     padding: 10px;
     border-radius: 20px;
+}
+
+.det > a img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.det > a {
+    color: rgb(223, 223, 223);
+    display: flex;
+    gap: 10px;
 }
 

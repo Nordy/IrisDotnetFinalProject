@@ -8,17 +8,21 @@
     <link rel="stylesheet" type="text/css" href="css/Global.css" />
     <link rel="stylesheet" type="text/css" href="css/Home.css" />
     <script src="js/Global.js"></script>
+    <script src="js/Home.js"></script>
 </head>
 <body>
     <div class="nav">
         <ul class="navList">
-            <li><a href="Home" class="navButton navSelected">Home</a></li>
-            <li>sds</li>
+            <li><a href="Home" name="home" class="navButton navSelected">
+                <img name="home" class="navImg navSelected" src="images/home-selected-white.png"/>
+                Home
+             </a></li>
+            <li><a href="Home" class="navButton">Login</a></li>
         </ul>
     </div>
     <div id="container">
         <div id="title" class="centered">
-            <div id="demo" class="content"></div>
+            <img id="demo" class="content" src="images/logo-bright.png" />
             <h1 id="dot">•</h1>
             <h1 class="content">Your Better <br /> School <i>Experience</i>.</h1>
         </div>
@@ -33,7 +37,9 @@
             </div>
             <div class="det">
                 <h2>Who?</h2>
-                <p>(TODO: github) YonaNord</p>
+                <a class="centered" target="_blank" href="https://github.com/YonaNord">
+                    <img src="images/gitLogo.jpeg"/>YonaNord
+                </a>
             </div>
         </div>
     </div>
