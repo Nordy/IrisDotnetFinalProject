@@ -1,0 +1,62 @@
+﻿#form {
+    margin-top: 15px;
+    border: 5px solid var(--accent2-color);
+    padding: 20px 100px;
+    border-radius: 20px;
+}
+
+#form h1 {
+    text-align: center;
+}
+
+
+input {
+    padding: 10px;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+}
+
+label {
+    margin-left: 14px;
+}
+
+.signupButton {
+    background-color: var(--accent2-color);
+    border: none;
+    color: var(--text-color);
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.signupContainer {
+    text-align: center;
+}
+
+#form a {
+    font-size: 12px;
+    text-align: center;
+    color: var(--accent2-color);
+}
+
+#gender {
+    text-align: left;
+    display: flex;
+    margin: 10px;
+}
+
+#gender input {
+    margin: 0 10px;
+}
+#gender label {
+    margin-left: 2px;
+}
+
+
+#date input {
+    margin-left: 15px;
+    padding: 38px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}

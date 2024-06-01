@@ -1,5 +1,4 @@
 ﻿
-window.addEventListener('resize', setCardHeight);
 window.matchMedia('(prefers-color-scheme: dark)').addListener((event) => {
     if (event.matches)
         setDarkMode();
@@ -16,6 +15,17 @@ function main() {
 
 
 }
+
+
+function setWhiteMode() {
+}
+
+function setDarkMode() {
+
+}
+
+window.addEventListener('resize', setCardHeight);
+
 function setCardHeight() {
     var array = Array.from(document.getElementsByClassName("det"))
     array.forEach((item) => {
@@ -26,14 +36,4 @@ function setCardHeight() {
         item.style.height = `${height}px`;
     });
 
-}
-
-function setWhiteMode() {
-    console.log("white h");
-    document.getElementById("demo").src = "images/logo-dark.png";
-}
-
-function setDarkMode() {
-    console.log("dark h");
-    document.getElementById("demo").src = "images/logo-white.png";
 }

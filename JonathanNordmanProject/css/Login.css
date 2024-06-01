@@ -1,0 +1,39 @@
+﻿#form {
+    margin-top: 15px;
+    border: 5px solid var(--accent1-color);
+    padding: 20px 100px;
+    border-radius: 20px;
+}
+#form h1 {
+    text-align: center;
+}
+
+
+input {
+    padding: 10px;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+}
+
+label {
+    margin-left: 14px;
+}
+
+.loginButton {
+    background-color: var(--accent1-color);
+    border: none;
+    color: var(--text-color);
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.loginContainer {
+    text-align: center;
+}
+
+#form a {
+    font-size: 12px;
+    text-align: center;
+    color: var(--accent1-color);
+}

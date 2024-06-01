@@ -68,6 +68,11 @@ C:\Users\yon\OneDrive\Desktop\f\Coding\C#\Yud Aleph 2023-2024\Web\IrisDotnetFina
 C:\Users\yon\OneDrive\Desktop\f\Coding\C#\Yud Aleph 2023-2024\Web\IrisDotnetFinalProject\JonathanNordmanProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Users\yon\OneDrive\Desktop\f\Coding\C#\Yud Aleph 2023-2024\Web\IrisDotnetFinalProject\JonathanNordmanProject\obj\Debug\JonathanNordmanProject.csproj.AssemblyReference.cache
 C:\Users\yon\OneDrive\Desktop\f\Coding\C#\Yud Aleph 2023-2024\Web\IrisDotnetFinalProject\JonathanNordmanProject\obj\Debug\JonathanNordmanProject.csproj.CoreCompileInputs.cache
-C:\Users\yon\OneDrive\Desktop\f\Coding\C#\Yud Aleph 2023-2024\Web\IrisDotnetFinalProject\JonathanNordmanProject\obj\Debug\JonathanNordmanProject.csproj.CopyComplete
 C:\Users\yon\OneDrive\Desktop\f\Coding\C#\Yud Aleph 2023-2024\Web\IrisDotnetFinalProject\JonathanNordmanProject\obj\Debug\JonathanNordmanProject.dll
 C:\Users\yon\OneDrive\Desktop\f\Coding\C#\Yud Aleph 2023-2024\Web\IrisDotnetFinalProject\JonathanNordmanProject\obj\Debug\JonathanNordmanProject.pdb
+C:\Users\yon\OneDrive\Desktop\f\Coding\C#\Yud Aleph 2023-2024\Web\IrisDotnetFinalProject\JonathanNordmanProject\obj\Debug\Jonathan.1018DDE0.Up2Date
+C:\Users\yon\OneDrive\Desktop\f\Coding\C#\Yud Aleph 2023-2024\Web\IrisDotnetFinalProject\JonathanNordmanProject\bin\selenium-manager\linux\selenium-manager
+C:\Users\yon\OneDrive\Desktop\f\Coding\C#\Yud Aleph 2023-2024\Web\IrisDotnetFinalProject\JonathanNordmanProject\bin\selenium-manager\macos\selenium-manager
+C:\Users\yon\OneDrive\Desktop\f\Coding\C#\Yud Aleph 2023-2024\Web\IrisDotnetFinalProject\JonathanNordmanProject\bin\selenium-manager\windows\selenium-manager.exe
+C:\Users\yon\OneDrive\Desktop\f\Coding\C#\Yud Aleph 2023-2024\Web\IrisDotnetFinalProject\JonathanNordmanProject\bin\WebDriver.dll
+C:\Users\yon\OneDrive\Desktop\f\Coding\C#\Yud Aleph 2023-2024\Web\IrisDotnetFinalProject\JonathanNordmanProject\bin\WebDriver.xml

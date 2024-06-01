@@ -11,20 +11,35 @@
     <script src="js/Home.js"></script>
 </head>
 <body>
-    <div class="nav">
-        <ul class="navList">
+    <div id="nav">
+        <ul id="navList">
             <li><a href="Home" name="home" class="navButton navSelected">
-                <img name="home" class="navImg navSelected" src="images/home-selected-white.png"/>
                 Home
-             </a></li>
-            <li><a href="Home" class="navButton">Login</a></li>
+            </a></li> 
+            <li><a href="TimeTable" name="timetable" class="navButton">
+                Time Table
+            </a></li>
+            <li><a href="Events" name="events" class="navButton">
+                Events
+            </a></li>
         </ul>
     </div>
+    <!--
+    <div id="nav">
+        <ul id="navList">
+            <li><a href="Home" name="home" class="navButton navSelected">
+                <img name="home" class="navImg navSelected" src="images/home-selected-white.png" />
+                Home
+            </a></li>
+            <li><a href="Login" class="navButton">Login</a></li>
+        </ul>
+    </div>
+    -->
     <div id="container">
         <div id="title" class="centered">
-            <img id="demo" class="content" src="images/logo-bright.png" />
+            <img id="logo" src="images/logo-white.png" />
             <h1 id="dot">•</h1>
-            <h1 class="content">Your Better <br /> School <i>Experience</i>.</h1>
+            <h1>Your Better <br /> School <i>Experience.</i></h1>
         </div>
         <div id="details" class="centered">
             <div class="det">
@@ -42,6 +57,33 @@
                 </a>
             </div>
         </div>
+        <div id="summary-container">
+            <div id="schedule-summary">
+                <h2>Weekly Schedule Overview</h2>
+                <ul>
+                    <li>Math - Mondays & Wednesdays at 9:00 AM</li>
+                    <li>English - Tuesdays & Thursdays at 10:00 AM</li>
+                    <li>Science - Mondays at 11:00 AM</li>
+                </ul>
+            </div>
+            <div id="homework-summary">
+                <h2>Upcoming Homework</h2>
+                <ul>
+                    <li>Math: Chapter 4 Exercises - Due April 10, 2024</li>
+                    <li>English: Essay on "Modern Literature" - Due April 12, 2024</li>
+                </ul>
+            </div>
+            <div id="events-summary">
+                <h2>Upcoming Events</h2>
+                <ul>
+                    <li>Science Fair - April 20, 2024</li>
+                    <li>Math Competition - May 5, 2024</li>
+                </ul>
+            </div>
+        </div>
+
+
+
     </div>
 
 </body>

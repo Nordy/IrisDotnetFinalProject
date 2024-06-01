@@ -3,9 +3,9 @@ window.addEventListener('mouseover', setNavLogoHover);
 window.addEventListener('mouseout', setNavLogoHover);
 window.matchMedia('(prefers-color-scheme: dark)').addListener((event) => {
     if (event.matches) 
-        setDarkMode();
+        setGlobalDarkMode();
     else 
-        setWhiteMode();
+        setGlobalWhiteMode();
 });
 
 setTimeout(main, 1);
@@ -13,14 +13,14 @@ function main() {
     setNavBack();
     setNavLogo();
     if (window.matchMedia('(prefers-color-scheme: dark)').matches)
-        setDarkMode();
+        setGlobalDarkMode();
     else
-        setWhiteMode();
+        setGlobalWhiteMode();
 
 }
 
 function setNavBack() {
-    var navbar = document.getElementsByClassName('nav')[0]
+    navbar = document.getElementById("nav");
     if (window.scrollY < 10) {
         navbar.style.background = 'transparent';
         navbar.style.backdropFilter = 'none';
@@ -54,23 +54,23 @@ function setNavLogoHover(event) {
         if (event.target.classList.contains("navSelected")) {
             image.src = (event.type == "mouseover") ? `/images/${event.target.name}-selected-hover.png` : `/images/${event.target.name}-selected-${theme}.png`;
         } else {
-            image.src = (event.type == "mouseover") ? `/images/${event.target.name}-hover.png` : `/images/${event.target.name}-${theme}.png`;
+            image.src = (event.type == "mouseover") ? `/images/${event.target.name}-hover.png` : `/images/${event.target.name}.png`;
         }
     } 
 }
 
-function setWhiteMode() {
-    console.log("white");
+function setGlobalWhiteMode() {
     setNavLogo();
     var r = document.querySelector(':root');
     r.style.setProperty("--text-color", "rgb(52, 52, 52)");
     r.style.setProperty("--background-color", "rgb(223, 223, 223)");
+    document.getElementById("logo").src = "images/logo-dark.png";
 }
 
-function setDarkMode() {
-    console.log("dark");
+function setGlobalDarkMode() {
     setNavLogo();
     var r = document.querySelector(':root');
     r.style.setProperty("--background-color", "rgb(52, 52, 52)");
     r.style.setProperty("--text-color", "rgb(223, 223, 223)");
+    document.getElementById("logo").src = "images/logo-white.png";
 }
