@@ -4,6 +4,7 @@ using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Support.UI;
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -35,9 +36,11 @@ namespace JonathanNordmanProject
             List<string> classes = GetClasses();
             foreach (string grade in classes)
             {
+                //TODO change
                 UpdateSchedule(grade);
             }
         }
+
         /// <summary>
         /// Lists all the available classes in shahaf's database
         /// </summary>
@@ -58,20 +61,56 @@ namespace JonathanNordmanProject
         /// <summary>
         /// Either adds or updates an existing lesson
         /// </summary>
-        public void UpdateDatabase(string subject, string room, string teacher, int hour, int day, string grade)
+        //TODO if change then only change the change and not the other stuff such as teacher
+        public void UpdateDatabase(string subject, string room, string teacher, int hour, int day, string grade, string change = null)
         {
             string selectSql = $"SELECT * FROM Tschedule WHERE class=N'{grade}' and hour={hour} and day={day}";
             string sql;
             if (MyAdoHelper.IsExist(fileName, selectSql))
             {
-                sql = $"UPDATE Tschedule SET teacher=N'{teacher}' and subject=N'{subject}' and room=N'{room} WHERE class=N'{grade}' and hour='{hour}' and day='{day}'";
+                sql = $"UPDATE Tschedule SET teacher=N'{teacher}' and subject=N'{subject}' and room=N'{room}' and change=N'{change}' WHERE class=N'{grade}' and hour='{hour}' and day='{day}'";
             } else
             {
-                sql = $"INSERT INTO Tschedule(subject, teacher, room, class, hour, day) VALUES(N'{subject}', N'{teacher}', N'{room}', N'{grade}', '{hour}', '{day}'";
+                sql = $"INSERT INTO Tschedule(subject, teacher, room, class, hour, day, change) VALUES(N'{subject}', N'{teacher}', N'{room}', N'{grade}', '{hour}', '{day}', N'{change}'";
             }
             MyAdoHelper.DoQuery(fileName, sql);
 
         }
+        public void UpdateChanges(string grade)
+        {
+            driver.Navigate().GoToUrl(url);
+            ClickElement(By.LinkText("שינויים"));
+            List<IWebElement> changeElements = new List<IWebElement>(driver.FindElements(By.ClassName("MsgCell")));
+            foreach (IWebElement element in changeElements)
+            {
+                string text = element.Text;
+                string date = text.Split(',')[0].Trim();
+                string lesson = text.Split(',')[1].Replace("שיעור", "").Trim();
+                string msg = element.Text.Replace($"{text.Split(',')[0]},{text.Split(',')[1]}", "").Trim();
+                DateTime datetime;
+                if (DateTime.TryParseExact(date, "dd.MM.yyyy", CultureInfo.InvariantCulture, DateTimeStyles.None, out datetime))
+                {
+                    int dayOfWeek = (int)datetime.DayOfWeek;
+
+
+                    DateTime currentDate = DateTime.Now;
+
+                    // Calculate the start of the current week (Sunday)
+                    DateTime startOfWeek = currentDate.AddDays(-(int)currentDate.DayOfWeek);
+
+                    // Calculate the end of the current week (Saturday)
+                    DateTime endOfWeek = startOfWeek.AddDays(6);
+
+                    // Check if the given date is within this week and not in the past
+                    bool isInThisWeekAndNotPast = datetime >= currentDate && datetime >= startOfWeek && datetime <= endOfWeek;
+                    if (datetime >= currentDate && datetime >= startOfWeek && datetime <= endOfWeek)
+                    {
+
+                    }
+                }
+            }
+        }
+
 
         /// <summary>
         /// Gets the schedule of a class 
