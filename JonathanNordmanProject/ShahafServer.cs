@@ -7,10 +7,9 @@ using System.Collections.Generic;
 using System.Data;
 using System.Globalization;
 using System.IO;
-using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Web;
-using System.Web.UI.WebControls;
 
 namespace JonathanNordmanProject
 {
@@ -21,25 +20,43 @@ namespace JonathanNordmanProject
         private IWebDriver driver;
         private string url;
         private string fileName;
+        private WebDriverWait wait;
 
         public ShahafServer()
         {
-            string path = Directory.GetParent(Environment.CurrentDirectory).Parent.Parent.FullName;
+            string path = HttpContext.Current.Server.MapPath("drivers");
             ChromeOptions options = new ChromeOptions();
             options.AddArgument("--headless");
-            this.driver = new ChromeDriver($"C:\\Users\\Yonatan\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\L2\\testapi\\testapi\\drivers\\", options);
+            this.driver = new ChromeDriver(path);
             this.url = "https://alon.iscool.co.il/default.aspx";
             this.fileName = "db.mdf";
+            this.wait = new WebDriverWait(driver, TimeSpan.FromSeconds(10));
+            Console.OutputEncoding = Encoding.UTF8;
+            
         }
 
 
-        public void LoopThroughLessons()
+        public void UpdateSchedules()
+        {
+            List<string> classes = GetClasses();
+            driver.Navigate().GoToUrl(url);
+            foreach (string grade in classes)
+            {
+                Console.WriteLine($"Current grade: {grade}");
+                UpdateSchedule(grade);
+                Thread.Sleep(1000);
+
+            }
+
+        }
+        public void UpdateChanges()
         {
             List<string> classes = GetClasses();
             foreach (string grade in classes)
             {
-                UpdateSchedule(grade);
+                Console.WriteLine($"Current grade: {grade}");
                 UpdateChanges(grade);
+                Thread.Sleep(1000);
             }
         }
         /// <summary>
@@ -64,7 +81,8 @@ namespace JonathanNordmanProject
         /// </summary>
         public DataTable GetFromDatabase(string grade, int hour, int day, string teacher)
         {
-            string selectSql = $"SELECT * FROM Tschedule WHERE class=N'{grade}' and teacher=N'{teacher}' and hour={hour} and day={day}";
+            Console.WriteLine($"SELECT * FROM Tschedule WHERE class=N'{grade}' and teacher=N'{teacher}' and hour='{hour}' and day='{day}'");
+            string selectSql = $"SELECT * FROM Tschedule WHERE class=N'{grade}' and teacher=N'{teacher}' and hour='{hour}' and day='{day}'";
             if (MyAdoHelper.IsExist(fileName, selectSql))
                 return MyAdoHelper.ExecuteDataTable(fileName, selectSql);
             return null;
@@ -74,7 +92,6 @@ namespace JonathanNordmanProject
         /// </summary>
         public void UpdateChanges(string grade)
         {
-            driver.Navigate().GoToUrl(url);
             ClickElement(By.LinkText("שינויים"));
             List<IWebElement> changeElements = new List<IWebElement>(driver.FindElements(By.ClassName("MsgCell")));
             foreach (IWebElement element in changeElements)
@@ -104,6 +121,7 @@ namespace JonathanNordmanProject
                         string room = null;
                         string teacher;
                         int newLesson;
+                        dayOfWeek += 1;
                         if (msg.Contains("ביטול שעור"))
                         {
                             teacher = msg.Split(',')[0].Trim();
@@ -121,7 +139,7 @@ namespace JonathanNordmanProject
                         else if (msg.Contains("הזזת שיעור"))
                         {
                             teacher = msg.Split(':')[1].Split(',')[1];
-                            newLesson = int.Parse(msg.Split(',')[2].Split(new string[] {"לשיעור"}, StringSplitOptions.None)[1]);
+                            newLesson = int.Parse(msg.Split(',')[2].Split(new string[] { "לשיעור" }, StringSplitOptions.None)[1]);
                             MoveLessonToDifferentTime(lesson, newLesson, dayOfWeek, grade, teacher);
                         }
 
@@ -134,13 +152,13 @@ namespace JonathanNordmanProject
         /// </summary>
         public void UpdateSchedule(string grade)
         {
-            driver.Navigate().GoToUrl(url);
             ClickElement(By.LinkText("מערכת שעות"));
             IWebElement dropdownTd = driver.FindElement(By.Id("dnn_ctr1214_TimeTableView_TdClassesList"));
             IWebElement dropdown = dropdownTd.FindElement(By.TagName("select"));
             SelectElement select = new SelectElement(dropdown);
-            select.SelectByText(grade);
-            IWebElement table = driver.FindElement(By.ClassName("TTTable"));
+
+            select.SelectByText(grade.Replace("\'\'", "\'"));
+            IWebElement table = wait.Until(SeleniumExtras.WaitHelpers.ExpectedConditions.ElementExists(By.ClassName("TTTable")));
             List<IWebElement> rows = new List<IWebElement>(table.FindElements(By.TagName("tr")));
             for (int i = 1; i < rows.Count; i++)
             {
@@ -150,27 +168,40 @@ namespace JonathanNordmanProject
                     try
                     {
                         List<IWebElement> lessonsPerHour = new List<IWebElement>(cells[j].FindElements(By.ClassName("TTLesson")));
+
                         foreach (var lesson in lessonsPerHour)
                         {
                             string subject;
                             string room;
+                            string teacher;
                             try
                             {
-                                subject = lesson.Text.Split(new string[] { "\n" }, StringSplitOptions.None)[0].Split('(')[0].Trim();
-                                room = lesson.Text.Split(new string[] { "\n" }, StringSplitOptions.None)[0].Split('(')[1].Replace(")", "").Trim();
+                                subject = (lesson.Text.Length > 1) ? lesson.Text.Split(new string[] { "\n" }, StringSplitOptions.None)[0].Split('(')[0].Trim() : "";
+                                room = (lesson.Text.Length > 1) ? lesson.Text.Split(new string[] { "\n" }, StringSplitOptions.None)[0].Split('(')[1].Replace(")", "").Trim() : "";
 
                             }
-                            catch
+                            catch (Exception err)
+
                             {
-                                subject = lesson.Text.Split(new string[] { "\n" }, StringSplitOptions.None)[0].Trim();
+                                subject = (lesson.Text.Length > 1) ? lesson.Text.Split(new string[] { "\n" }, StringSplitOptions.None)[0].Trim() : "";
                                 room = null;
                             }
-                            string teacher = lesson.Text.Split(new string[] { "\n" }, StringSplitOptions.None)[1].Trim();
+                            try
+                            {
+                                teacher = lesson.Text.Split(new string[] { "\n" }, StringSplitOptions.None)[1].Trim();
+                            }
+                            catch (Exception err)
+                            {
+                                teacher = "";
 
-                            AddLesson(subject, room, teacher, i - 1, j, grade);
+                            }
+                            if ((subject.Length > 1) && (teacher.Length > 1))
+                            {
+                                AddLesson(subject, room, teacher, i - 1, j, grade);
+                            }
+
 
                             /*
-                            Console.OutputEncoding = Encoding.UTF8;
                             Console.WriteLine($"Hour {i - 1} Day {j}");
                             Console.WriteLine($"subject: {subject}");
                             Console.WriteLine($"room: {room}");
@@ -180,8 +211,11 @@ namespace JonathanNordmanProject
 
 
                         }
-                    } catch { }
-                    
+                    }
+                    catch (IOException exception)
+                    {
+                    }
+
                 }
             }
 
@@ -217,16 +251,20 @@ namespace JonathanNordmanProject
         {
             string selectSql = $"SELECT * FROM Tschedule WHERE class=N'{grade}' and teacher=N'{teacher}' and hour={hour} and day={day}";
             string sql;
+
             var room = GetFromDatabase(grade, hour, day, teacher).Rows[0]["room"];
+            teacher = teacher.Replace("\'", "\'\'");
+            grade = grade.Replace("\'", "\'\'");
+
             if (MyAdoHelper.IsExist(fileName, selectSql))
             {
-                sql = $"UPDATE Tschedule SET operation='{operation}' and room=N'{room}' WHERE class=N'{grade}' and teacher=N'{teacher}' and hour={hour} and day={day}";
+                sql = $"UPDATE Tschedule SET operation='{operation}', room=N'{room}' WHERE class=N'{grade}' and teacher=N'{teacher}' and hour={hour} and day={day}";
                 MyAdoHelper.DoQuery(fileName, sql);
             }
             else
             {
                 var subject = GetFromDatabase(grade, hour, day, teacher).Rows[0]["subject"];
-                sql = $"INSERT INTO Tschedule(subject, teacher, room, class, hour, day, operation) VALUES(N'{subject}', N'{teacher}', N'{room}', N'{grade}', '{hour}', '{day}', '{operation}'";
+                sql = $"INSERT INTO Tschedule(subject, teacher, room, class, hour, day, operation) VALUES(N'{subject}', N'{teacher}', N'{room}', N'{grade}', '{hour}', '{day}', '{operation}')";
             }
         }
         /// <summary>
@@ -235,31 +273,46 @@ namespace JonathanNordmanProject
         /// <param name="operation">1: Cancel, 2: Change room, 3: Move to different time, 4: Added lesson (time moved)</param>
         public void EditLesson(int hour, int day, string grade, string teacher, int operation, string room)
         {
+
+            room = (room != null) ? room.Replace("\'", "\'\'") : null;
+            teacher = teacher.Replace("\'", "\'\'");
+            grade = grade.Replace("\'", "\'\'");
             string selectSql = $"SELECT * FROM Tschedule WHERE class=N'{grade}' and teacher=N'{teacher}' and hour={hour} and day={day}";
             string sql;
             if (MyAdoHelper.IsExist(fileName, selectSql))
             {
-                sql = $"UPDATE Tschedule SET operation='{operation}' and room=N'{room}' WHERE class=N'{grade}' and teacher=N'{teacher}' and hour={hour} and day={day}";
-                MyAdoHelper.DoQuery(fileName, sql);
+                sql = $"UPDATE Tschedule SET operation='{operation}', room=N'{room}' WHERE class=N'{grade}' and teacher=N'{teacher}' and hour={hour} and day={day}";
+
             }
             else
             {
                 var subject = GetFromDatabase(grade, hour, day, teacher).Rows[0]["subject"];
-                sql = $"INSERT INTO Tschedule(subject, teacher, room, class, hour, day, operation) VALUES(N'{subject}', N'{teacher}', N'{room}', N'{grade}', '{hour}', '{day}', '{operation}'";
+                sql = $"INSERT INTO Tschedule(subject, teacher, room, class, hour, day, operation) VALUES(N'{subject}', N'{teacher}', N'{room}', N'{grade}', '{hour}', '{day}', '{operation}')";
             }
+            MyAdoHelper.DoQuery(fileName, sql);
+
         }
         /// <summary>
         /// Either adds or updates an existing lesson
         /// </summary>
         public void AddLesson(string subject, string room, string teacher, int hour, int day, string grade)
         {
-            string selectSql = $"SELECT * FROM Tschedule WHERE class=N'{grade}' and teacher=N'{teacher}' hour={hour} and day={day}";
+
+            room = (room != null) ? room.Replace("\'", "\'\'") : null;
+            teacher = teacher.Replace("\'", "\'\'");
+            grade = grade.Replace("\'", "\'\'");
+            subject = subject.Replace("\'", "\'\'");
+            string selectSql = $"SELECT * FROM Tschedule WHERE class=N'{grade}' and teacher=N'{teacher}' and hour='{hour}' and day='{day}'";
+            Console.WriteLine(selectSql);
             string sql;
             if (!MyAdoHelper.IsExist(fileName, selectSql))
             {
-                sql = $"INSERT INTO Tschedule(subject, teacher, room, class, hour, day, operation) VALUES(N'{subject}', N'{teacher}', N'{room}', N'{grade}', '{hour}', '{day}', '0'";
+
+                sql = $"INSERT INTO Tschedule(subject, teacher, room, class, hour, day, operation) VALUES(N'{subject}', N'{teacher}', N'{room}', N'{grade}', '{hour}', '{day}', '0')";
                 MyAdoHelper.DoQuery(fileName, sql);
+
             }
+
 
         }
 

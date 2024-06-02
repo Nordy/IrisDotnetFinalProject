@@ -154,3 +154,6 @@ C:\Users\Yonatan\NotSyncable\IrisDotnetFinalProject\JonathanNordmanProject\bin\A
 C:\Users\Yonatan\NotSyncable\IrisDotnetFinalProject\JonathanNordmanProject\bin\Microsoft.AspNet.FriendlyUrls.xml
 C:\Users\Yonatan\NotSyncable\IrisDotnetFinalProject\JonathanNordmanProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Users\Yonatan\NotSyncable\IrisDotnetFinalProject\JonathanNordmanProject\obj\Debug\JonathanNordmanProject.csproj.CopyComplete
+C:\Users\Yonatan\NotSyncable\IrisDotnetFinalProject\JonathanNordmanProject\bin\SeleniumExtras.WaitHelpers.dll
+C:\Users\Yonatan\NotSyncable\IrisDotnetFinalProject\JonathanNordmanProject\bin\WebDriver.Support.dll
+C:\Users\Yonatan\NotSyncable\IrisDotnetFinalProject\JonathanNordmanProject\bin\WebDriver.Support.xml
