@@ -5,13 +5,16 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace JonathanNordmanProject.Scripts
+namespace JonathanNordmanProject
 {
-    public partial class WebForm1 : System.Web.UI.Page
+    public partial class Home : System.Web.UI.Page
     {
+        public string navbar;
+        public string title;
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            this.navbar = Components.Navbar((Session["username"] != null), "Home");
+            this.title = Components.Title();
         }
     }
 }

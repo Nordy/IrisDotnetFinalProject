@@ -11,21 +11,9 @@
     <script src="js/SignUp.js"></script>
 </head>
 <body>
-    <div id="nav">
-        <ul id="navList">
-            <li><a href="Home" name="home" class="navButton">
-                <img name="home" class="navImg" src="images/home-selected-white.png" />
-                Home
-            </a></li>
-            <li><a href="Home" class="navButton navSelected">Login</a></li>
-        </ul>
-    </div>
+    <%=navbar %>
     <div id="container">
-        <div id="title" class="centered">
-            <img id="logo" src="images/logo-white.png" />
-            <h1 id="dot">•</h1>
-            <h1>Your Better <br /> School <i>Experience.</i></h1>
-        </div>
+        <%=title %>
         <form method="post" class="centered" action="SignUp.aspx">
             <div id="form">
                 <h1>Sign Up</h1>
@@ -55,10 +43,10 @@
                 <br />
                 <label>Password:</label>
                 <br />
-                <input type="text" name="password" placeholder="Type Here..." />    
+                <input type="password" name="password" placeholder="Type Here..." />    
                 <br /> 
                 <div class="signupContainer">
-                    <input class="signupButton" type="button" name="submit" value="Log In" />
+                    <input class="signupButton" type="button" name="submit" value="Sign up" />
                 </div>
                 <br />
                 <a href="Login">Already have an account? <b>LOG IN HERE</b></a>

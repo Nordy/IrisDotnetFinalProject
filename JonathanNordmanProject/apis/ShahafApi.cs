@@ -254,7 +254,7 @@ namespace JonathanNordmanProject.apis
         public static void MoveLessonToDifferentTime(int hour, int newHour, int day, string grade, string teacher)
         {
             EditLesson(hour, day, grade, teacher, 3); // removed lesson
-            CancelLesson(newHour, day, grade, teacher);
+            CancelLessons(newHour, day, grade);
             string room = GetFromDatabase(grade, hour, day, teacher).Rows[0]["room"].ToString();
             EditLesson(newHour, day, grade, teacher, 4, room); // added lesson
 
@@ -265,6 +265,13 @@ namespace JonathanNordmanProject.apis
         public static void CancelLesson(int hour, int day, string grade, string teacher)
         {
             EditLesson(hour, day, grade, teacher, 1);
+        }
+        /// <summary>
+        /// Cancels a lesson (with status 1)
+        /// </summary>
+        public static void CancelLessons(int hour, int day, string grade)
+        {
+            EditLessons(hour, day, grade, 1);
         }
 
         public static void ChangeRoomOfLesson(int hour, int day, string grade, string teacher, string room)
@@ -319,6 +326,23 @@ namespace JonathanNordmanProject.apis
                 sql = $"INSERT INTO Tschedule(subject, teacher, room, class, hour, day, operation) VALUES(N'{subject}', N'{teacher}', N'{room}', N'{grade}', '{hour}', '{day}', '{operation}')";
             }
             MyAdoHelper.DoQuery(fileName, sql);
+
+        }
+        /// <summary>
+        /// Edits lessons
+        /// </summary>
+        /// <param name="operation">1: Cancel, 2: Change room, 3: Move to different time, 4: Added lesson (time moved)</param>
+        public static void EditLessons(int hour, int day, string grade, int operation)
+        {
+
+            grade = grade.Replace("\'", "\'\'");
+            string selectSql = $"SELECT * FROM Tschedule WHERE class=N'{grade}' and hour={hour} and day={day}";
+            string sql;
+            if (MyAdoHelper.IsExist(fileName, selectSql))
+            {
+                sql = $"UPDATE Tschedule SET operation='{operation}' WHERE class=N'{grade}' and hour={hour} and day={day}";
+                MyAdoHelper.DoQuery(fileName, sql);
+            }
 
         }
         /// <summary>

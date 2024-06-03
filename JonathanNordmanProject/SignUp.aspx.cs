@@ -9,9 +9,12 @@ namespace JonathanNordmanProject
 {
     public partial class SignUp : System.Web.UI.Page
     {
+        public string navbar;
+        public string title;
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            this.navbar = Components.Navbar((Session["username"] != null), "Signup");
+            this.title = Components.Title();
         }
     }
 }

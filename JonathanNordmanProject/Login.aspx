@@ -11,21 +11,9 @@
     <script src="js/Login.js"></script>
 </head>
 <body>
-    <div id="nav">
-        <ul id="navList">
-            <li><a href="Home" name="home" class="navButton navSelected">
-                <img name="home" class="navImg navSelected" src="images/home-selected-white.png" />
-                Home
-            </a></li>
-            <li><a href="Home" class="navButton">Login</a></li>
-        </ul>
-    </div>
+    <%=navbar %>
     <div id="container">
-        <div id="title" class="centered">
-            <img id="logo" src="images/logo-white.png" />
-            <h1 id="dot">•</h1>
-            <h1>Your Better <br /> School <i>Experience.</i></h1>
-        </div>
+        <%=title %>
         <form method="post" class="centered" action="Login.aspx">
             <div id="form">
                 <h1>Login</h1>

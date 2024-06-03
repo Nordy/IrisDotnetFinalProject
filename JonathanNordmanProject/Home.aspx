@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Home.aspx.cs" Inherits="JonathanNordmanProject.Scripts.WebForm1" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Home.aspx.cs" Inherits="JonathanNordmanProject.Home" %>
 
 <!DOCTYPE html>
 
@@ -11,36 +11,9 @@
     <script src="js/Home.js"></script>
 </head>
 <body>
-    <div id="nav">
-        <ul id="navList">
-            <li><a href="Home" name="home" class="navButton navSelected">
-                Home
-            </a></li> 
-            <li><a href="TimeTable" name="timetable" class="navButton">
-                Time Table
-            </a></li>
-            <li><a href="Events" name="events" class="navButton">
-                Events
-            </a></li>
-        </ul>
-    </div>
-    <!--
-    <div id="nav">
-        <ul id="navList">
-            <li><a href="Home" name="home" class="navButton navSelected">
-                <img name="home" class="navImg navSelected" src="images/home-selected-white.png" />
-                Home
-            </a></li>
-            <li><a href="Login" class="navButton">Login</a></li>
-        </ul>
-    </div>
-    -->
+    <%=navbar %>
     <div id="container">
-        <div id="title" class="centered">
-            <img id="logo" src="images/logo-white.png" />
-            <h1 id="dot">•</h1>
-            <h1>Your Better <br /> School <i>Experience.</i></h1>
-        </div>
+        <%=title %>
         <div id="details" class="centered">
             <div class="det">
                 <h2>What?</h2>

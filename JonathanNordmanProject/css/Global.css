@@ -1,7 +1,6 @@
 ﻿
 
 :root {
- 
     --background-color: rgb(52, 52, 52); /* dark gray */
     --text-color: rgb(223, 223, 223); /* white */
     --secondary-color: rgb(150, 150, 150);
@@ -9,13 +8,6 @@
     --accent2-color: rgb(12, 131, 70); /* green */
     --accent3-color: rgb(141, 167, 190); /* light blue */
     
-}
-
-@media (prefers-color-scheme: light) {
-    :root {
-        --text-color: rgb(52, 52, 52); /* dark gray */
-        --background-color: rgb(223, 223, 223); /* white */
-    }
 }
 
 ::-moz-selection {
@@ -30,6 +22,7 @@ body {
     font-family: sans-serif;
     color: var(--text-color);
     background-color: var(--background-color);
+    font-size: 120%;
 }
 
 .centered {
@@ -38,6 +31,17 @@ body {
     align-self: center;
     justify-content: center;
     align-items: center;
+}
+
+i {
+    background-color: var(--accent1-color);
+    font-weight: 900;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+#container {
+    margin-top: 60px;
 }
 
 #nav {
@@ -49,52 +53,62 @@ body {
     transition: 0.1s;
 }
 
-#navList {
+#nav img {
+    width: 80px;
+    margin-right: 40px;
+}
+
+
+#nav ul {
     list-style: none;
     display: flex;
     flex-direction: row;
     align-items: center;
-}
-
-i {
-    background-color: var(--accent1-color);
-    font-weight: 900;
-    padding: 5px;
-    border-radius: 20px;
-}
-
-
-
-#logo {
-    height: 100px;
     margin: 20px;
 }
 
-
-#container {
-    margin-top: 60px;
+.navRight {
+    margin-left: auto;
 }
 
-#title h1 {
-    line-height: 45px;
-    margin: 20px;
+
+.navExtraButton {
+    color: var(--background-color);
+    background-color: var(--text-color);
+    text-decoration: none;
+    margin: 30px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-weight: bold;
+    padding: 15px 25px 15px 25px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    flex-direction: column;
+    cursor: pointer;
+    position: relative;
+    transition: 0.2s;
 }
 
-#dot {
-    color: var(--accent1-color);
-}
 
+.navExtraButton:hover {
+    background-color: var(--accent2-color);
+    color: var(--text-color);
+}
 
 
 
 .navButton {
     color: var(--secondary-color);
     text-decoration: none;
+    transition: 0.2s;
     margin: 20px;
     margin-bottom: 0px;
     margin-top: 0px;
-    padding-bottom: 10px;
-    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -109,10 +123,6 @@ i {
     color: var(--accent2-color);
 }
 
-.navButton img {
-    width: 20px;
-    height: 20px;
-}
 
 .navSelected {
     font-weight: bold;
@@ -120,3 +130,16 @@ i {
 }
 
 
+#title h1 {
+    line-height: 50px;
+    margin: 20px;
+}
+
+#dot {
+    color: var(--accent1-color);
+}
+
+#logo {
+    height: 100px;
+    margin: 20px;
+}
