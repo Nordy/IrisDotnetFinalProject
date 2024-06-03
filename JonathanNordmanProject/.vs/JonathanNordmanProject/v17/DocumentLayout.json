@@ -3,16 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\JonathanNordmanProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{74BD248E-A75F-4E21-8F9D-C91C854E7B52}|JonathanNordmanProject.csproj|c:\\users\\yon\\onedrive\\desktop\\f\\coding\\c#\\yud aleph 2023-2024\\web\\irisdotnetfinalproject\\jonathannordmanproject\\shahafserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74BD248E-A75F-4E21-8F9D-C91C854E7B52}|JonathanNordmanProject.csproj|solutionrelative:shahafserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{74BD248E-A75F-4E21-8F9D-C91C854E7B52}|JonathanNordmanProject.csproj|C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\JonathanNordmanProject\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{74BD248E-A75F-4E21-8F9D-C91C854E7B52}|JonathanNordmanProject.csproj|solutionrelative:login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{74BD248E-A75F-4E21-8F9D-C91C854E7B52}|JonathanNordmanProject.csproj|C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\JonathanNordmanProject\\home.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{74BD248E-A75F-4E21-8F9D-C91C854E7B52}|JonathanNordmanProject.csproj|solutionrelative:home.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{74BD248E-A75F-4E21-8F9D-C91C854E7B52}|JonathanNordmanProject.csproj|c:\\users\\yon\\onedrive\\desktop\\f\\coding\\c#\\yud aleph 2023-2024\\web\\irisdotnetfinalproject\\jonathannordmanproject\\js\\global.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "AbsoluteMoniker": "D:0:0:{74BD248E-A75F-4E21-8F9D-C91C854E7B52}|JonathanNordmanProject.csproj|c:\\users\\yon\\onedrive\\desktop\\f\\coding\\c#\\yud aleph 2023-2024\\web\\irisdotnetfinalproject\\jonathannordmanproject\\admin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{74BD248E-A75F-4E21-8F9D-C91C854E7B52}|JonathanNordmanProject.csproj|solutionrelative:admin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74BD248E-A75F-4E21-8F9D-C91C854E7B52}|JonathanNordmanProject.csproj|C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\JonathanNordmanProject\\js\\global.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{74BD248E-A75F-4E21-8F9D-C91C854E7B52}|JonathanNordmanProject.csproj|solutionrelative:js\\global.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74BD248E-A75F-4E21-8F9D-C91C854E7B52}|JonathanNordmanProject.csproj|C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\JonathanNordmanProject\\shahafserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74BD248E-A75F-4E21-8F9D-C91C854E7B52}|JonathanNordmanProject.csproj|solutionrelative:shahafserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74BD248E-A75F-4E21-8F9D-C91C854E7B52}|JonathanNordmanProject.csproj|C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\JonathanNordmanProject\\admin.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74BD248E-A75F-4E21-8F9D-C91C854E7B52}|JonathanNordmanProject.csproj|solutionrelative:admin.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74BD248E-A75F-4E21-8F9D-C91C854E7B52}|JonathanNordmanProject.csproj|C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\JonathanNordmanProject\\mashovserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74BD248E-A75F-4E21-8F9D-C91C854E7B52}|JonathanNordmanProject.csproj|solutionrelative:mashovserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{74BD248E-A75F-4E21-8F9D-C91C854E7B52}|JonathanNordmanProject.csproj|C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\JonathanNordmanProject\\js\\home.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
@@ -75,10 +91,6 @@
       "RelativeMoniker": "D:0:0:{74BD248E-A75F-4E21-8F9D-C91C854E7B52}|JonathanNordmanProject.csproj|solutionrelative:css\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{74BD248E-A75F-4E21-8F9D-C91C854E7B52}|JonathanNordmanProject.csproj|C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\JonathanNordmanProject\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{74BD248E-A75F-4E21-8F9D-C91C854E7B52}|JonathanNordmanProject.csproj|solutionrelative:login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{74BD248E-A75F-4E21-8F9D-C91C854E7B52}|JonathanNordmanProject.csproj|C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\JonathanNordmanProject\\js\\signup.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{74BD248E-A75F-4E21-8F9D-C91C854E7B52}|JonathanNordmanProject.csproj|solutionrelative:js\\signup.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
@@ -114,11 +126,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Global.js",
               "DocumentMoniker": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\JonathanNordmanProject\\js\\Global.js",
               "RelativeDocumentMoniker": "js\\Global.js",
@@ -127,8 +139,7 @@
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2024-01-04T07:22:07.103Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -146,7 +157,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "Home.js",
               "DocumentMoniker": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\JonathanNordmanProject\\js\\Home.js",
               "RelativeDocumentMoniker": "js\\Home.js",
@@ -159,7 +170,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 25,
               "Title": "TimeTable.css",
               "DocumentMoniker": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\JonathanNordmanProject\\css\\TimeTable.css",
               "RelativeDocumentMoniker": "css\\TimeTable.css",
@@ -172,13 +183,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 23,
               "Title": "TimeTable.aspx",
               "DocumentMoniker": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\JonathanNordmanProject\\TimeTable.aspx",
               "RelativeDocumentMoniker": "TimeTable.aspx",
               "ToolTip": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\JonathanNordmanProject\\TimeTable.aspx",
               "RelativeToolTip": "TimeTable.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
               "WhenOpened": "2024-03-04T08:14:55.376Z",
               "IsPinned": true
@@ -189,144 +199,179 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "home-selected-white.png - PNG [136x136, 32 bit, PNG]",
-              "DocumentMoniker": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\JonathanNordmanProject\\images\\home-selected-white.png",
-              "RelativeDocumentMoniker": "images\\home-selected-white.png",
-              "ToolTip": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\JonathanNordmanProject\\images\\home-selected-white.png - PNG [136x136, 32 bit, PNG]",
-              "RelativeToolTip": "images\\home-selected-white.png - PNG [136x136, 32 bit, PNG]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2024-03-04T15:37:57.123Z",
-              "EditorCaption": " - PNG [136x136, 32 bit, PNG]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "home-selected-hover.png - PNG [136x136, 32 bit, PNG]",
-              "DocumentMoniker": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\JonathanNordmanProject\\images\\home-selected-hover.png",
-              "RelativeDocumentMoniker": "images\\home-selected-hover.png",
-              "ToolTip": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\JonathanNordmanProject\\images\\home-selected-hover.png - PNG [136x136, 32 bit, PNG]",
-              "RelativeToolTip": "images\\home-selected-hover.png - PNG [136x136, 32 bit, PNG]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2024-03-04T15:37:49.421Z",
-              "EditorCaption": " - PNG [136x136, 32 bit, PNG]"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Login.aspx",
+              "DocumentMoniker": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\JonathanNordmanProject\\Login.aspx",
+              "RelativeDocumentMoniker": "Login.aspx",
+              "ToolTip": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\JonathanNordmanProject\\Login.aspx",
+              "RelativeToolTip": "Login.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-03-04T06:09:52.794Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "ShahafServer.cs",
               "DocumentMoniker": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\JonathanNordmanProject\\ShahafServer.cs",
               "RelativeDocumentMoniker": "ShahafServer.cs",
               "ToolTip": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\JonathanNordmanProject\\ShahafServer.cs",
               "RelativeToolTip": "ShahafServer.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAxwBAAAAAUAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFcAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-21T05:40:00.771Z",
+              "WhenOpened": "2024-05-21T05:40:00.771Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Admin.aspx",
+              "DocumentMoniker": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\JonathanNordmanProject\\Admin.aspx",
+              "RelativeDocumentMoniker": "Admin.aspx",
+              "ToolTip": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\JonathanNordmanProject\\Admin.aspx",
+              "RelativeToolTip": "Admin.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-06-03T09:53:38.799Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "home-selected-dark.png - PNG [136x136, 32 bit, PNG]",
-              "DocumentMoniker": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\JonathanNordmanProject\\images\\home-selected-dark.png",
-              "RelativeDocumentMoniker": "images\\home-selected-dark.png",
-              "ToolTip": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\JonathanNordmanProject\\images\\home-selected-dark.png - PNG [136x136, 32 bit, PNG]",
-              "RelativeToolTip": "images\\home-selected-dark.png - PNG [136x136, 32 bit, PNG]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2024-03-04T15:37:48.352Z",
-              "EditorCaption": " - PNG [136x136, 32 bit, PNG]"
+              "Title": "Admin.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\JonathanNordmanProject\\Admin.aspx.cs",
+              "RelativeDocumentMoniker": "Admin.aspx.cs",
+              "ToolTip": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\JonathanNordmanProject\\Admin.aspx.cs",
+              "RelativeToolTip": "Admin.aspx.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T09:53:42.727Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "home-hover.png - PNG [136x136, 32 bit, PNG]",
-              "DocumentMoniker": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\JonathanNordmanProject\\images\\home-hover.png",
-              "RelativeDocumentMoniker": "images\\home-hover.png",
-              "ToolTip": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\JonathanNordmanProject\\images\\home-hover.png - PNG [136x136, 32 bit, PNG]",
-              "RelativeToolTip": "images\\home-hover.png - PNG [136x136, 32 bit, PNG]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2024-03-04T15:37:38.417Z",
-              "EditorCaption": " - PNG [136x136, 32 bit, PNG]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "home.png - PNG [136x136, 32 bit, PNG]",
-              "DocumentMoniker": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\JonathanNordmanProject\\images\\home.png",
-              "RelativeDocumentMoniker": "images\\home.png",
-              "ToolTip": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\JonathanNordmanProject\\images\\home.png - PNG [136x136, 32 bit, PNG]",
-              "RelativeToolTip": "images\\home.png - PNG [136x136, 32 bit, PNG]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2024-03-04T15:37:58.016Z",
-              "EditorCaption": " - PNG [136x136, 32 bit, PNG]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "logo-dark.png - PNG [1278x975, 32 bit, PNG]",
-              "DocumentMoniker": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\JonathanNordmanProject\\images\\logo-dark.png",
-              "RelativeDocumentMoniker": "images\\logo-dark.png",
-              "ToolTip": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\JonathanNordmanProject\\images\\logo-dark.png - PNG [1278x975, 32 bit, PNG]",
-              "RelativeToolTip": "images\\logo-dark.png - PNG [1278x975, 32 bit, PNG]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2024-03-04T15:37:53.128Z",
-              "EditorCaption": " - PNG [1278x975, 32 bit, PNG]"
+              "DocumentIndex": 6,
+              "Title": "MashovServer.cs",
+              "DocumentMoniker": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\JonathanNordmanProject\\MashovServer.cs",
+              "RelativeDocumentMoniker": "MashovServer.cs",
+              "ToolTip": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\JonathanNordmanProject\\MashovServer.cs",
+              "RelativeToolTip": "MashovServer.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwBkAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T07:26:35.946Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "logo-white.png - PNG [1364x1041, 32 bit, PNG]",
-              "DocumentMoniker": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\JonathanNordmanProject\\images\\logo-white.png",
-              "RelativeDocumentMoniker": "images\\logo-white.png",
-              "ToolTip": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\JonathanNordmanProject\\images\\logo-white.png - PNG [1364x1041, 32 bit, PNG]",
-              "RelativeToolTip": "images\\logo-white.png - PNG [1364x1041, 32 bit, PNG]",
+              "Title": "home-selected-hover.png",
+              "DocumentMoniker": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\JonathanNordmanProject\\images\\home-selected-hover.png",
+              "RelativeDocumentMoniker": "images\\home-selected-hover.png",
+              "ToolTip": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\JonathanNordmanProject\\images\\home-selected-hover.png",
+              "RelativeToolTip": "images\\home-selected-hover.png",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2024-03-04T15:37:55.222Z",
-              "EditorCaption": " - PNG [1364x1041, 32 bit, PNG]"
+              "WhenOpened": "2024-03-04T15:37:49.421Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "timetable.png - PNG [222x227, 8 bit, PNG]",
-              "DocumentMoniker": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\JonathanNordmanProject\\images\\timetable.png",
-              "RelativeDocumentMoniker": "images\\timetable.png",
-              "ToolTip": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\JonathanNordmanProject\\images\\timetable.png - PNG [222x227, 8 bit, PNG]",
-              "RelativeToolTip": "images\\timetable.png - PNG [222x227, 8 bit, PNG]",
+              "DocumentIndex": 11,
+              "Title": "home-selected-white.png",
+              "DocumentMoniker": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\JonathanNordmanProject\\images\\home-selected-white.png",
+              "RelativeDocumentMoniker": "images\\home-selected-white.png",
+              "ToolTip": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\JonathanNordmanProject\\images\\home-selected-white.png",
+              "RelativeToolTip": "images\\home-selected-white.png",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2024-05-25T12:29:38.337Z",
-              "EditorCaption": " - PNG [222x227, 8 bit, PNG]"
+              "WhenOpened": "2024-03-04T15:37:57.123Z"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "home-selected-dark.png",
+              "DocumentMoniker": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\JonathanNordmanProject\\images\\home-selected-dark.png",
+              "RelativeDocumentMoniker": "images\\home-selected-dark.png",
+              "ToolTip": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\JonathanNordmanProject\\images\\home-selected-dark.png",
+              "RelativeToolTip": "images\\home-selected-dark.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-03-04T15:37:48.352Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "home-hover.png",
+              "DocumentMoniker": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\JonathanNordmanProject\\images\\home-hover.png",
+              "RelativeDocumentMoniker": "images\\home-hover.png",
+              "ToolTip": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\JonathanNordmanProject\\images\\home-hover.png",
+              "RelativeToolTip": "images\\home-hover.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-03-04T15:37:38.417Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
+              "Title": "home.png",
+              "DocumentMoniker": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\JonathanNordmanProject\\images\\home.png",
+              "RelativeDocumentMoniker": "images\\home.png",
+              "ToolTip": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\JonathanNordmanProject\\images\\home.png",
+              "RelativeToolTip": "images\\home.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-03-04T15:37:58.016Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "logo-dark.png",
+              "DocumentMoniker": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\JonathanNordmanProject\\images\\logo-dark.png",
+              "RelativeDocumentMoniker": "images\\logo-dark.png",
+              "ToolTip": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\JonathanNordmanProject\\images\\logo-dark.png",
+              "RelativeToolTip": "images\\logo-dark.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-03-04T15:37:53.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "logo-white.png",
+              "DocumentMoniker": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\JonathanNordmanProject\\images\\logo-white.png",
+              "RelativeDocumentMoniker": "images\\logo-white.png",
+              "ToolTip": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\JonathanNordmanProject\\images\\logo-white.png",
+              "RelativeToolTip": "images\\logo-white.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-03-04T15:37:55.222Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "timetable.png",
+              "DocumentMoniker": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\JonathanNordmanProject\\images\\timetable.png",
+              "RelativeDocumentMoniker": "images\\timetable.png",
+              "ToolTip": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\JonathanNordmanProject\\images\\timetable.png",
+              "RelativeToolTip": "images\\timetable.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-05-25T12:29:38.337Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "SignUp.aspx",
               "DocumentMoniker": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\JonathanNordmanProject\\SignUp.aspx",
               "RelativeDocumentMoniker": "SignUp.aspx",
               "ToolTip": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\JonathanNordmanProject\\SignUp.aspx",
               "RelativeToolTip": "SignUp.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
               "WhenOpened": "2024-03-04T06:46:12.854Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "Events.aspx",
               "DocumentMoniker": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\JonathanNordmanProject\\Events.aspx",
               "RelativeDocumentMoniker": "Events.aspx",
               "ToolTip": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\JonathanNordmanProject\\Events.aspx",
               "RelativeToolTip": "Events.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
               "WhenOpened": "2024-03-04T09:22:26.982Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 17,
               "Title": "favicon.ico - Icon [16x16, 32 bit, BMP]",
               "DocumentMoniker": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\JonathanNordmanProject\\favicon.ico",
               "RelativeDocumentMoniker": "favicon.ico",
@@ -337,7 +382,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 21,
               "Title": "Home.css",
               "DocumentMoniker": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\JonathanNordmanProject\\css\\Home.css",
               "RelativeDocumentMoniker": "css\\Home.css",
@@ -349,19 +394,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Login.aspx",
-              "DocumentMoniker": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\JonathanNordmanProject\\Login.aspx",
-              "RelativeDocumentMoniker": "Login.aspx",
-              "ToolTip": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\JonathanNordmanProject\\Login.aspx",
-              "RelativeToolTip": "Login.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-03-04T06:09:52.794Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 19,
               "Title": "Global.css",
               "DocumentMoniker": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\JonathanNordmanProject\\css\\Global.css",
               "RelativeDocumentMoniker": "css\\Global.css",
@@ -373,7 +406,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 20,
               "Title": "Login.css",
               "DocumentMoniker": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\JonathanNordmanProject\\css\\Login.css",
               "RelativeDocumentMoniker": "css\\Login.css",
@@ -385,7 +418,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 18,
               "Title": "Events.css",
               "DocumentMoniker": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\JonathanNordmanProject\\css\\Events.css",
               "RelativeDocumentMoniker": "css\\Events.css",
@@ -397,7 +430,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "SignUp.js",
               "DocumentMoniker": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\JonathanNordmanProject\\js\\SignUp.js",
               "RelativeDocumentMoniker": "js\\SignUp.js",
@@ -409,7 +442,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 24,
               "Title": "SignUp.css",
               "DocumentMoniker": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\JonathanNordmanProject\\css\\SignUp.css",
               "RelativeDocumentMoniker": "css\\SignUp.css",
@@ -421,7 +454,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 26,
               "Title": "TimeTable.js",
               "DocumentMoniker": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\JonathanNordmanProject\\js\\TimeTable.js",
               "RelativeDocumentMoniker": "js\\TimeTable.js",
@@ -433,7 +466,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 27,
               "Title": "Login.js",
               "DocumentMoniker": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\JonathanNordmanProject\\js\\Login.js",
               "RelativeDocumentMoniker": "js\\Login.js",

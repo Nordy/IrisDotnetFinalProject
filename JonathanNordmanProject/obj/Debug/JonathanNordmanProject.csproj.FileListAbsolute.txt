@@ -157,3 +157,6 @@ C:\Users\Yonatan\NotSyncable\IrisDotnetFinalProject\JonathanNordmanProject\obj\D
 C:\Users\Yonatan\NotSyncable\IrisDotnetFinalProject\JonathanNordmanProject\bin\SeleniumExtras.WaitHelpers.dll
 C:\Users\Yonatan\NotSyncable\IrisDotnetFinalProject\JonathanNordmanProject\bin\WebDriver.Support.dll
 C:\Users\Yonatan\NotSyncable\IrisDotnetFinalProject\JonathanNordmanProject\bin\WebDriver.Support.xml
+C:\Users\yon\OneDrive\Desktop\f\Coding\C#\Yud Aleph 2023-2024\Web\IrisDotnetFinalProject\JonathanNordmanProject\bin\SeleniumExtras.WaitHelpers.dll
+C:\Users\yon\OneDrive\Desktop\f\Coding\C#\Yud Aleph 2023-2024\Web\IrisDotnetFinalProject\JonathanNordmanProject\bin\WebDriver.Support.dll
+C:\Users\yon\OneDrive\Desktop\f\Coding\C#\Yud Aleph 2023-2024\Web\IrisDotnetFinalProject\JonathanNordmanProject\bin\WebDriver.Support.xml
