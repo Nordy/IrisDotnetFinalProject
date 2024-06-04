@@ -139,7 +139,6 @@
     <Content Include="css\TimeTable.css" />
     <Content Include="Events.aspx" />
     <Content Include="js\TimeTable.js" />
-    <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="css\Home.css" />
     <Content Include="js\Global.js" />

@@ -4,6 +4,8 @@
     background-color: rgb(40, 40, 40);
     padding: 20px 100px;
     border-radius: 20px;
+    display: flex;
+    flex-direction: column;
 }
 #form h1 {
     text-align: center;
@@ -15,10 +17,6 @@ input {
     margin: auto;
     margin-top: 10px;
     display: flex;
-}
-
-label {
-    margin-left: 14px;
 }
 
 .loginButton {

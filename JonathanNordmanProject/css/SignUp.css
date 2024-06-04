@@ -12,16 +12,6 @@
     text-align: center;
 }
 
-.parallel {
-    display: flex;
-    flex-direction: row;
-}
-
-.perpendicular {
-    display: flex;
-    flex-direction: column;
-    margin: 10px;
-}
 input {
     padding: 10px;
     margin: auto;

@@ -30,24 +30,30 @@ namespace JonathanNordmanProject
 
                 element += $@"
                     <li><a href=""Dashboard"" name=""dashboard"" class=""navButton {(currentPage == "Dashboard" ? "navSelected" : "")}"">
+                        <div class=""fa fa-home""></div>
                         Dashboard
                     </a></li>
-                    <li><a href=""Grades"" name=""grades"" class=""navButton {(currentPage == "Grades" ? "navSelected" : "")}"">
-                        Grades
+                    <li><a href=""Schedule"" name=""schedule"" class=""navButton {(currentPage == "Schedule" ? "navSelected" : "")}"">
+                        <div class=""fa fa-calendar""></div>
+                        Schedule
                     </a></li>
                     <li><a href=""Upcoming"" name=""upcoming"" class=""navButton {(currentPage == "Upcoming" ? "navSelected" : "")}"">
+                        <div class=""fa fa-bookmark""></div>
                         Upcoming
                     </a></li>
-                    <li><a href=""Schedule"" name=""schedule"" class=""navButton {(currentPage == "Schedule" ? "navSelected" : "")}"">
-                        Schedule
+                    <li><a href=""Grades"" name=""grades"" class=""navButton {(currentPage == "Grades" ? "navSelected" : "")}"">
+                        <div class=""fa fa-book""></div>
+                        Grades
                     </a></li>
                     {(isAdmin ? $@"
                         <li><a href=""Admin"" name=""admin"" class=""navButton {(currentPage == "Admin" ? "navSelected" : "")}"">
-                        Admin Panel
+                            <div class=""fa fa-lock""></div>
+                            Admin Panel
                         </a></li>" 
                     : "")}
                     <div class=""navRight"">
                         <li><a href=""Profile"" name=""profile"" class=""navExtraButton"" data-text=""Profile"">
+                            <div class=""fa fa-user""></div>
                             {fname}
                         </a></li>
                     </div>
@@ -56,13 +62,16 @@ namespace JonathanNordmanProject
             {
                 element += $@"
                     <li><a href=""Home"" name=""home"" class=""navButton {(currentPage == "Home" ? "navSelected" : "")}"">
+                        <div class=""fa fa-home""></div>
                         Home
                     </a></li>
                     <li><a href=""Schedule"" name=""schedule"" class=""navButton {(currentPage == "Schedule" ? "navSelected" : "")}"">
+                        <div class=""fa fa-calendar""></div>
                         Schedule
                     </a></li>
                     <div class=""navRight"">
                         <li><a href=""Login"" name=""login"" class=""navExtraButton"">
+                            <div class=""fa fa-user""></div>
                             Login
                         </a></li>
                     </div>

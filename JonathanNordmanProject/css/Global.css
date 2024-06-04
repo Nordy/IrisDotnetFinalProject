@@ -1,4 +1,4 @@
-﻿
+﻿@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
 
 :root {
     --background-color: rgb(52, 52, 52); /* dark gray */
@@ -42,7 +42,18 @@ i {
 }
 
 #container {
-    margin-top: 60px;
+    margin-top: 110px;
+}
+
+.parallel {
+    display: flex;
+    flex-direction: row;
+}
+
+.perpendicular {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
 }
 
 #nav {
@@ -52,6 +63,10 @@ i {
     left: 0;
     top: 0;
     transition: 0.1s;
+}
+
+.fa {
+    font-size: 30px;
 }
 
 #nav img {
@@ -66,7 +81,8 @@ i {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin: 20px;
+    padding: 20px;
+    margin: 0;
 }
 
 .navRight {
@@ -86,8 +102,8 @@ i {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 5px;
-    flex-direction: column;
+    gap: 10px;
+    flex-direction: row;
     cursor: pointer;
     position: relative;
     transition: 0.2s;
@@ -113,8 +129,8 @@ i {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 5px;
-    flex-direction: column;
+    gap: 10px;
+    flex-direction: row;
     margin-top: 0;
     cursor: pointer;
 }

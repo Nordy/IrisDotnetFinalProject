@@ -7,6 +7,7 @@
     <title>BetterSchool</title>
     <link rel="stylesheet" type="text/css" href="css/Global.css" />
     <link rel="stylesheet" type="text/css" href="css/Home.css" />
+    <link rel="icon" type="image/png" href="images/logo.png" />
     <script src="js/Global.js"></script>
     <script src="js/Home.js"></script>
 </head>
@@ -26,7 +27,8 @@
             <div class="det">
                 <h2>Who?</h2>
                 <a class="centered" target="_blank" href="https://github.com/YonaNord">
-                    <img src="images/gitLogo.jpeg"/>YonaNord
+                    <img src="images/gitLogo.jpeg"/>
+                    YonaNord
                 </a>
             </div>
         </div>

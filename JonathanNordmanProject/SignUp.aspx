@@ -7,6 +7,7 @@
     <title>Sign Up</title>
     <link rel="stylesheet" type="text/css" href="css/Global.css" />
     <link rel="stylesheet" type="text/css" href="css/SignUp.css" />
+    <link rel="icon" type="image/png" href="images/logo.png" />
     <script src="js/Global.js"></script>
     <script src="js/SignUp.js"></script>
 </head>
@@ -44,7 +45,7 @@
                     <div id="myMultiselect" class="multiselect">
                         <div id="mySelectLabel" class="selectBox" onclick="toggleCheckboxArea()">
                             <select class="form-select">
-                              <option>yay</option>
+                              <option>Placeholder</option>
                             </select>
                             <div class="overSelect"></div>
                         </div>

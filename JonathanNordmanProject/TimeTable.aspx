@@ -7,6 +7,7 @@
     <title>BetterSchool</title>
     <link rel="stylesheet" type="text/css" href="css/Global.css" />
     <link rel="stylesheet" type="text/css" href="css/TimeTable.css" />
+    <link rel="icon" type="image/png" href="images/logo.png" />
     <script src="js/Global.js"></script>
     <script src="js/TimeTable.js"></script>
 </head>
