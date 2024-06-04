@@ -13,7 +13,7 @@ namespace JonathanNordmanProject
         public string title;
         protected void Page_Load(object sender, EventArgs e)
         {
-            this.navbar = Components.Navbar((Session["username"] != null), "Login");
+            this.navbar = Components.Navbar((Session["username"] != null), "Login", (Session["isAdmin"] != null));
             this.title = Components.Title();
         }
     }

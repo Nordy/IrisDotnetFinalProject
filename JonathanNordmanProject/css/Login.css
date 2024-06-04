@@ -1,6 +1,7 @@
 ﻿#form {
     margin-top: 15px;
-    border: 5px solid var(--accent1-color);
+    border: none;
+    background-color: rgb(40, 40, 40);
     padding: 20px 100px;
     border-radius: 20px;
 }

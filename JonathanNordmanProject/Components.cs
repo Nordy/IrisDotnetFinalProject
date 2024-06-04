@@ -18,7 +18,7 @@ namespace JonathanNordmanProject
                 </div>
             ";
         }
-        public static string Navbar(bool isLoggedIn, string currentPage)
+        public static string Navbar(bool isLoggedIn, string currentPage, bool isAdmin, string fname = null)
         {
             string element = $@"
                 <div id=""nav"">
@@ -27,6 +27,7 @@ namespace JonathanNordmanProject
                 ";
             if (isLoggedIn)
             {
+
                 element += $@"
                     <li><a href=""Dashboard"" name=""dashboard"" class=""navButton {(currentPage == "Dashboard" ? "navSelected" : "")}"">
                         Dashboard
@@ -40,9 +41,14 @@ namespace JonathanNordmanProject
                     <li><a href=""Schedule"" name=""schedule"" class=""navButton {(currentPage == "Schedule" ? "navSelected" : "")}"">
                         Schedule
                     </a></li>
+                    {(isAdmin ? $@"
+                        <li><a href=""Admin"" name=""admin"" class=""navButton {(currentPage == "Admin" ? "navSelected" : "")}"">
+                        Admin Panel
+                        </a></li>" 
+                    : "")}
                     <div class=""navRight"">
                         <li><a href=""Profile"" name=""profile"" class=""navExtraButton"" data-text=""Profile"">
-                            Profile
+                            {fname}
                         </a></li>
                     </div>
                     ";

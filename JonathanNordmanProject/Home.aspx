@@ -17,7 +17,7 @@
         <div id="details" class="centered">
             <div class="det">
                 <h2>What?</h2>
-                <p>BetterSchool is an app that connects to Mashov and Shahaf to make it's own database of interconnected data that will improve your productivity.</p>
+                <p>BetterSchool is an app that connects to Mashov, Shahaf, and the schools events sheets page to make it's own database of interconnected data that will improve your productivity.</p>
             </div>
             <div class="det">
                 <h2>Why?</h2>

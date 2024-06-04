@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="JonathanNordmanProject.Login" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="SignUp.aspx.cs" Inherits="JonathanNordmanProject.SignUp" %>
 
 <!DOCTYPE html>
 
@@ -17,34 +17,43 @@
         <form method="post" class="centered" action="SignUp.aspx">
             <div id="form">
                 <h1>Sign Up</h1>
-                <label>First Name:</label>
-                <input type="text" name="fname" placeholder="Type Here..." />
-                <br />
-                <label>Last Name:</label>
-                <input type="text" name="lname" placeholder="Type Here..." />
-                <br />
-                <label>Gender:</label>
-                <div id="gender">
-                    <input type="radio" name="gender" value="male" />
-                    <label for="genderMale">Male</label>
-                    <br />
-                    <input type="radio" name="gender" value="female" />
-                    <label for="genderFemale">Female</label>
+                <div class="parallel">
+                    <div class="perpendicular">
+                        <label>First Name:</label>
+                        <input type="text" name="fname" placeholder="Type Here..." />
+                    </div>
+                    <div class="perpendicular">
+                        <label>Last Name:</label>
+                        <input type="text" name="lname" placeholder="Type Here..." />
+                    </div>
                 </div>
-                <div id="date">
-                    <label>Birth date:</label>
-                    <input type="date" name="date" />
+                <br />
+                <div class="parallel">
+                    <div class="perpendicular">
+                        <label>Username:</label>
+                        <input type="text" name="username" placeholder="Type Here..." />
+                    </div>
+                    <div class="perpendicular">
+                        <label>Password:</label>
+                        <input type="password" name="password" placeholder="Type Here..." />  
+                    </div>
                 </div>
-
-                <br />
-                <label>Username:</label>
-                <br />
-                <input type="text" name="username" placeholder="Type Here..." />
-                <br />
-                <label>Password:</label>
-                <br />
-                <input type="password" name="password" placeholder="Type Here..." />    
                 <br /> 
+                <div class="perpendicular centered">
+                    <label>Class:</label>
+                    <div id="myMultiselect" class="multiselect">
+                        <div id="mySelectLabel" class="selectBox" onclick="toggleCheckboxArea()">
+                            <select class="form-select">
+                              <option>yay</option>
+                            </select>
+                            <div class="overSelect"></div>
+                        </div>
+                      <div id="mySelectOptions">
+                           <%=classes %>
+                      </div>
+                    </div>
+                </div>
+                <br />
                 <div class="signupContainer">
                     <input class="signupButton" type="button" name="submit" value="Sign up" />
                 </div>
