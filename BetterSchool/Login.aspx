@@ -18,19 +18,20 @@
         <form method="post" class="centered" action="Login.aspx">
             <div id="form">
                 <h1>Login</h1>
-                <div class="parallel">
+                <div class="parallel centered">
                     <div class="perpendicular">
                         <label>Username:</label>
-                        <input type="text" name="username" placeholder="Type Here..." />
+                        <input <%=(status ? "" : "style=\"border: solid 2px red\"")%> type="text" name="username" placeholder="Type Here..." />
                     </div>
                     <div class="perpendicular">
                         <label>Password:</label>
-                        <input type="password" name="password" placeholder="Type Here..." />  
+                        <input <%=(status ? "" : "style=\"border: solid 2px red\"")%> type="password" name="password" placeholder="Type Here..." />  
                     </div>
                 </div>
+                <h3><%=error %></h3>
                 <br /> 
                 <div class="loginContainer">
-                    <input class="loginButton" type="button" name="submit" value="Log In" />
+                    <input class="loginButton" type="submit" name="submit" value="Log In" />
                 </div>
                 <br />
                 <a href="SignUp.aspx">Don't have an account? <b>SIGN UP HERE</b></a>

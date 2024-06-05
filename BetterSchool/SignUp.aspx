@@ -21,22 +21,22 @@
                 <div class="parallel">
                     <div class="perpendicular">
                         <label>First Name:</label>
-                        <input type="text" name="fname" placeholder="Type Here..." />
+                        <input <%=(status ? "" : "style=\"border: solid 2px red\"")%> type="text" name="fname" placeholder="Type Here..." />
                     </div>
                     <div class="perpendicular">
                         <label>Last Name:</label>
-                        <input type="text" name="lname" placeholder="Type Here..." />
+                        <input <%=(status ? "" : "style=\"border: solid 2px red\"")%> type="text" name="lname" placeholder="Type Here..." />
                     </div>
                 </div>
                 <br />
                 <div class="parallel">
                     <div class="perpendicular">
                         <label>Username:</label>
-                        <input type="text" name="username" placeholder="Type Here..." />
+                        <input <%=(status ? "" : "style=\"border: solid 2px red\"")%> type="text" name="username" placeholder="Type Here..." />
                     </div>
                     <div class="perpendicular">
                         <label>Password:</label>
-                        <input type="password" name="password" placeholder="Type Here..." required/>  
+                        <input <%=(status ? "" : "style=\"border: solid 2px red\"")%> type="password" name="password" placeholder="Type Here..." />  
                     </div>
                 </div>
                 <br /> 
@@ -44,7 +44,7 @@
                     <label>Class:</label>
                     <div id="myMultiselect" class="multiselect">
                         <div id="mySelectLabel" class="selectBox" onclick="toggleCheckboxArea()">
-                            <select class="form-select">
+                            <select <%=(status ? "" : "style=\"border: solid 2px red\"")%> class="form-select">
                               <option>Placeholder</option>
                             </select>
                             <div class="overSelect"></div>
@@ -54,6 +54,7 @@
                       </div>
                     </div>
                 </div>
+                <h3><%=error %></h3>
                 <br />
                 <div class="signupContainer">
                     <input class="signupButton" type="submit" name="submit" value="Sign up"/>

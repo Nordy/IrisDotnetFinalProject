@@ -85,6 +85,11 @@
     <Content Include="bin\Newtonsoft.Json.dll" />
     <Content Include="bin\WebDriver.dll" />
     <Content Include="bin\WebDriver.Support.dll" />
+    <Content Include="css\Global.css" />
+    <Content Include="css\Home.css" />
+    <Content Include="css\Login.css" />
+    <Content Include="css\SignUp.css" />
+    <Content Include="css\TimeTable.css" />
     <Content Include="Default.aspx" />
     <Content Include="Home.aspx" />
     <Content Include="images\gitLogo.jpeg" />
