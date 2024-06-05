@@ -16,6 +16,7 @@ input {
     padding: 10px;
     margin: auto;
     display: flex;
+    border: none;
 }
 
 label {
@@ -42,6 +43,9 @@ label {
     color: var(--accent2-color);
 }
 
+select {
+    border:none;
+}
 
 .multiselect {
     width: 100%;

@@ -52,5 +52,6 @@ function removeErrors() {
     for (var i = 0; i < document.getElementsByTagName("input").length; i++) {
         document.getElementsByTagName("input")[i].style = "border: none;";
     }
+    document.getElementsByTagName("select")[0].style = "border: none;";
 }
 

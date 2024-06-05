@@ -17,7 +17,7 @@ namespace BetterSchool
         public string error;
         protected void Page_Load(object sender, EventArgs e)
         {
-            navbar = Components.Navbar((Session["username"] != null), "Login", (Session["isAdmin"] != null));
+            navbar = Components.Navbar((Session["isLoggedIn"] != null ? (bool)Session["isLoggedIn"] : false), "Login", (Session["isAdmin"] != null ? (bool)Session["isAdmin"] : false), (Session["fname"] != null ? (string)Session["fname"] : null));
             title = Components.Title();
             status = true;
             error = "";
@@ -42,8 +42,9 @@ namespace BetterSchool
                 {
                     DataTable table = MyAdoHelper.ExecuteDataTable(fileName, selectSql);
                     Session["username"] = table.Rows[0]["username"];
-                    Session["password"] = table.Rows[0]["password"];
                     Session["isAdmin"] = table.Rows[0]["isAdmin"];
+                    Session["fname"] = table.Rows[0]["fname"];
+                    Session["lname"] = table.Rows[0]["lname"];
                     Session["isLoggedIn"] = true;
                     Response.Redirect("Dashboard.aspx");
                     return;

@@ -19,7 +19,7 @@ namespace BetterSchool
         public string error;
         protected void Page_Load(object sender, EventArgs e)
         {
-            navbar = Components.Navbar((Session["username"] != null), "Signup", (Session["isAdmin"] != null));
+            navbar = Components.Navbar((Session["isLoggedIn"] != null ? (bool)Session["isLoggedIn"] : false), "Signup", (Session["isAdmin"] != null ? (bool)Session["isAdmin"] : false), (Session["fname"] != null ? (string)Session["fname"] : null));
             title = Components.Title();
             string fileName = "db.mdf";
             string selectDistinctSql = "SELECT DISTINCT class FROM Tschedule";
@@ -60,9 +60,14 @@ namespace BetterSchool
                 string selectSql = $"SELECT * FROM Tusers WHERE username='{username}'";
                 if (!MyAdoHelper.IsExist(fileName, selectSql))
                 {
-                    //make utf 8 to support hebrew :|
-                    string sql = $"INSERT INTO Tusers(username, password, fname, lname, class, isAdmin) VALUES('{username}', '{password}', '{fname}', '{lname}', '{grade}', '{isAdmin}')";
+                    string sql = $"INSERT INTO Tusers(username, password, fname, lname, class, isAdmin) VALUES(N'{username}', N'{password}', N'{fname}', N'{lname}', N'{grade}', '{isAdmin}')";
                     MyAdoHelper.DoQuery(fileName, sql);
+                    Session["username"] = username;
+                    Session["isAdmin"] = isAdmin;
+                    Session["fname"] = fname;
+                    Session["lname"] = lname;
+                    Session["isLoggedIn"] = true;
+                    Response.Redirect("Dashboard.aspx");
                 }
                 else
                 {

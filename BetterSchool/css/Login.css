@@ -17,6 +17,7 @@ input {
     margin: auto;
     margin-top: 10px;
     display: flex;
+    border: none;
 }
 
 .loginButton {
