@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\BetterSchool\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A9F6DCDF-93A5-4F92-9E00-03598F18CD0B}|BetterSchool.csproj|C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\BetterSchool\\signup.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{A9F6DCDF-93A5-4F92-9E00-03598F18CD0B}|BetterSchool.csproj|solutionrelative:signup.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{A9F6DCDF-93A5-4F92-9E00-03598F18CD0B}|BetterSchool.csproj|C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\BetterSchool\\components.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9F6DCDF-93A5-4F92-9E00-03598F18CD0B}|BetterSchool.csproj|solutionrelative:components.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9F6DCDF-93A5-4F92-9E00-03598F18CD0B}|BetterSchool.csproj|C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\BetterSchool\\profile.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9F6DCDF-93A5-4F92-9E00-03598F18CD0B}|BetterSchool.csproj|solutionrelative:profile.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A9F6DCDF-93A5-4F92-9E00-03598F18CD0B}|BetterSchool.csproj|C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\BetterSchool\\signup.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A9F6DCDF-93A5-4F92-9E00-03598F18CD0B}|BetterSchool.csproj|solutionrelative:signup.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9F6DCDF-93A5-4F92-9E00-03598F18CD0B}|BetterSchool.csproj|C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\BetterSchool\\signup.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{A9F6DCDF-93A5-4F92-9E00-03598F18CD0B}|BetterSchool.csproj|solutionrelative:signup.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A9F6DCDF-93A5-4F92-9E00-03598F18CD0B}|BetterSchool.csproj|C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\BetterSchool\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,44 +27,76 @@
       "RelativeMoniker": "D:0:0:{A9F6DCDF-93A5-4F92-9E00-03598F18CD0B}|BetterSchool.csproj|solutionrelative:home.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A9F6DCDF-93A5-4F92-9E00-03598F18CD0B}|BetterSchool.csproj|C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\BetterSchool\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{A9F6DCDF-93A5-4F92-9E00-03598F18CD0B}|BetterSchool.csproj|solutionrelative:login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{A9F6DCDF-93A5-4F92-9E00-03598F18CD0B}|BetterSchool.csproj|C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\BetterSchool\\css\\profile.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A9F6DCDF-93A5-4F92-9E00-03598F18CD0B}|BetterSchool.csproj|solutionrelative:css\\profile.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A9F6DCDF-93A5-4F92-9E00-03598F18CD0B}|BetterSchool.csproj|c:\\users\\yon\\onedrive\\desktop\\f\\coding\\c#\\yud aleph 2023-2024\\web\\irisdotnetfinalproject\\betterschool\\css\\signup.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{A9F6DCDF-93A5-4F92-9E00-03598F18CD0B}|BetterSchool.csproj|solutionrelative:css\\signup.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A9F6DCDF-93A5-4F92-9E00-03598F18CD0B}|BetterSchool.csproj|c:\\users\\yon\\onedrive\\desktop\\f\\coding\\c#\\yud aleph 2023-2024\\web\\irisdotnetfinalproject\\betterschool\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{A9F6DCDF-93A5-4F92-9E00-03598F18CD0B}|BetterSchool.csproj|solutionrelative:css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A9F6DCDF-93A5-4F92-9E00-03598F18CD0B}|BetterSchool.csproj|c:\\users\\yon\\onedrive\\desktop\\f\\coding\\c#\\yud aleph 2023-2024\\web\\irisdotnetfinalproject\\betterschool\\css\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{A9F6DCDF-93A5-4F92-9E00-03598F18CD0B}|BetterSchool.csproj|solutionrelative:css\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A9F6DCDF-93A5-4F92-9E00-03598F18CD0B}|BetterSchool.csproj|c:\\users\\yon\\onedrive\\desktop\\f\\coding\\c#\\yud aleph 2023-2024\\web\\irisdotnetfinalproject\\betterschool\\css\\global.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{A9F6DCDF-93A5-4F92-9E00-03598F18CD0B}|BetterSchool.csproj|C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\BetterSchool\\css\\global.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{A9F6DCDF-93A5-4F92-9E00-03598F18CD0B}|BetterSchool.csproj|solutionrelative:css\\global.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A9F6DCDF-93A5-4F92-9E00-03598F18CD0B}|BetterSchool.csproj|c:\\users\\yon\\onedrive\\desktop\\f\\coding\\c#\\yud aleph 2023-2024\\web\\irisdotnetfinalproject\\betterschool\\js\\signup.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A9F6DCDF-93A5-4F92-9E00-03598F18CD0B}|BetterSchool.csproj|solutionrelative:js\\signup.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A9F6DCDF-93A5-4F92-9E00-03598F18CD0B}|BetterSchool.csproj|c:\\users\\yon\\onedrive\\desktop\\f\\coding\\c#\\yud aleph 2023-2024\\web\\irisdotnetfinalproject\\betterschool\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{A9F6DCDF-93A5-4F92-9E00-03598F18CD0B}|BetterSchool.csproj|solutionrelative:default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{A9F6DCDF-93A5-4F92-9E00-03598F18CD0B}|BetterSchool.csproj|C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\BetterSchool\\profile.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{A9F6DCDF-93A5-4F92-9E00-03598F18CD0B}|BetterSchool.csproj|solutionrelative:profile.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A9F6DCDF-93A5-4F92-9E00-03598F18CD0B}|BetterSchool.csproj|C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\BetterSchool\\home.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{A9F6DCDF-93A5-4F92-9E00-03598F18CD0B}|BetterSchool.csproj|solutionrelative:home.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A9F6DCDF-93A5-4F92-9E00-03598F18CD0B}|BetterSchool.csproj|C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\BetterSchool\\components.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9F6DCDF-93A5-4F92-9E00-03598F18CD0B}|BetterSchool.csproj|solutionrelative:components.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A9F6DCDF-93A5-4F92-9E00-03598F18CD0B}|BetterSchool.csproj|c:\\users\\yon\\onedrive\\desktop\\f\\coding\\c#\\yud aleph 2023-2024\\web\\irisdotnetfinalproject\\betterschool\\signup.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9F6DCDF-93A5-4F92-9E00-03598F18CD0B}|BetterSchool.csproj|solutionrelative:signup.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9F6DCDF-93A5-4F92-9E00-03598F18CD0B}|BetterSchool.csproj|c:\\users\\yon\\onedrive\\desktop\\f\\coding\\c#\\yud aleph 2023-2024\\web\\irisdotnetfinalproject\\betterschool\\profile.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9F6DCDF-93A5-4F92-9E00-03598F18CD0B}|BetterSchool.csproj|solutionrelative:profile.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9F6DCDF-93A5-4F92-9E00-03598F18CD0B}|BetterSchool.csproj|c:\\users\\yon\\onedrive\\desktop\\f\\coding\\c#\\yud aleph 2023-2024\\web\\irisdotnetfinalproject\\betterschool\\js\\global.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A9F6DCDF-93A5-4F92-9E00-03598F18CD0B}|BetterSchool.csproj|solutionrelative:js\\global.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9F6DCDF-93A5-4F92-9E00-03598F18CD0B}|BetterSchool.csproj|C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\BetterSchool\\js\\profile.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A9F6DCDF-93A5-4F92-9E00-03598F18CD0B}|BetterSchool.csproj|solutionrelative:js\\profile.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9F6DCDF-93A5-4F92-9E00-03598F18CD0B}|BetterSchool.csproj|C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\BetterSchool\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{A9F6DCDF-93A5-4F92-9E00-03598F18CD0B}|BetterSchool.csproj|solutionrelative:login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9F6DCDF-93A5-4F92-9E00-03598F18CD0B}|BetterSchool.csproj|C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\BetterSchool\\css\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A9F6DCDF-93A5-4F92-9E00-03598F18CD0B}|BetterSchool.csproj|solutionrelative:css\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9F6DCDF-93A5-4F92-9E00-03598F18CD0B}|BetterSchool.csproj|C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\BetterSchool\\js\\signup.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A9F6DCDF-93A5-4F92-9E00-03598F18CD0B}|BetterSchool.csproj|solutionrelative:js\\signup.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9F6DCDF-93A5-4F92-9E00-03598F18CD0B}|BetterSchool.csproj|C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\BetterSchool\\css\\signup.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A9F6DCDF-93A5-4F92-9E00-03598F18CD0B}|BetterSchool.csproj|solutionrelative:css\\signup.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9F6DCDF-93A5-4F92-9E00-03598F18CD0B}|BetterSchool.csproj|C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\BetterSchool\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A9F6DCDF-93A5-4F92-9E00-03598F18CD0B}|BetterSchool.csproj|solutionrelative:css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A9F6DCDF-93A5-4F92-9E00-03598F18CD0B}|BetterSchool.csproj|C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\BetterSchool\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A9F6DCDF-93A5-4F92-9E00-03598F18CD0B}|BetterSchool.csproj|solutionrelative:default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9F6DCDF-93A5-4F92-9E00-03598F18CD0B}|BetterSchool.csproj|C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\BetterSchool\\default.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9F6DCDF-93A5-4F92-9E00-03598F18CD0B}|BetterSchool.csproj|solutionrelative:default.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9F6DCDF-93A5-4F92-9E00-03598F18CD0B}|BetterSchool.csproj|C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\BetterSchool\\login.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9F6DCDF-93A5-4F92-9E00-03598F18CD0B}|BetterSchool.csproj|solutionrelative:login.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9F6DCDF-93A5-4F92-9E00-03598F18CD0B}|BetterSchool.csproj|C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\BetterSchool\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{A9F6DCDF-93A5-4F92-9E00-03598F18CD0B}|BetterSchool.csproj|solutionrelative:default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9F6DCDF-93A5-4F92-9E00-03598F18CD0B}|BetterSchool.csproj|C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\BetterSchool\\js\\login.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A9F6DCDF-93A5-4F92-9E00-03598F18CD0B}|BetterSchool.csproj|solutionrelative:js\\login.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A9F6DCDF-93A5-4F92-9E00-03598F18CD0B}|BetterSchool.csproj|C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\BetterSchool\\apis\\shahafapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -71,16 +111,8 @@
       "RelativeMoniker": "D:0:0:{A9F6DCDF-93A5-4F92-9E00-03598F18CD0B}|BetterSchool.csproj|solutionrelative:web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A9F6DCDF-93A5-4F92-9E00-03598F18CD0B}|BetterSchool.csproj|C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\BetterSchool\\login.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9F6DCDF-93A5-4F92-9E00-03598F18CD0B}|BetterSchool.csproj|solutionrelative:login.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A9F6DCDF-93A5-4F92-9E00-03598F18CD0B}|BetterSchool.csproj|C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\BetterSchool\\js\\home.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{A9F6DCDF-93A5-4F92-9E00-03598F18CD0B}|BetterSchool.csproj|solutionrelative:js\\home.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A9F6DCDF-93A5-4F92-9E00-03598F18CD0B}|BetterSchool.csproj|C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\BetterSchool\\js\\global.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A9F6DCDF-93A5-4F92-9E00-03598F18CD0B}|BetterSchool.csproj|solutionrelative:js\\global.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A9F6DCDF-93A5-4F92-9E00-03598F18CD0B}|BetterSchool.csproj|C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\BetterSchool\\apis\\myadohelpersql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -94,67 +126,108 @@
       "DocumentGroups": [
         {
           "DockedWidth": 234,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Global.css",
+              "DocumentMoniker": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\BetterSchool\\css\\Global.css",
+              "RelativeDocumentMoniker": "css\\Global.css",
+              "ToolTip": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\BetterSchool\\css\\Global.css",
+              "RelativeToolTip": "css\\Global.css",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAYwGoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-05T15:39:23.925Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Components.cs",
+              "DocumentMoniker": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\BetterSchool\\Components.cs",
+              "RelativeDocumentMoniker": "Components.cs",
+              "ToolTip": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\BetterSchool\\Components.cs",
+              "RelativeToolTip": "Components.cs",
+              "ViewState": "AQIAADEAAAAAAAAAAAAAAD8AAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T20:16:04.29Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SignUp.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\BetterSchool\\SignUp.aspx.cs",
+              "RelativeDocumentMoniker": "SignUp.aspx.cs",
+              "ToolTip": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\BetterSchool\\SignUp.aspx.cs",
+              "RelativeToolTip": "SignUp.aspx.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAqwBYAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T20:21:32.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "SignUp.css",
-              "DocumentMoniker": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\BetterSchool\\css\\SignUp.css",
-              "RelativeDocumentMoniker": "css\\SignUp.css",
-              "ToolTip": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\BetterSchool\\css\\SignUp.css",
-              "RelativeToolTip": "css\\SignUp.css",
-              "ViewState": "AQIAADwAAAAAAAAAAAAAADAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-06-05T15:40:21.763Z",
+              "Title": "Home.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\BetterSchool\\Home.aspx.cs",
+              "RelativeDocumentMoniker": "Home.aspx.cs",
+              "ToolTip": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\BetterSchool\\Home.aspx.cs",
+              "RelativeToolTip": "Home.aspx.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAIwBgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T20:08:40.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Profile.aspx",
+              "DocumentMoniker": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\BetterSchool\\Profile.aspx",
+              "RelativeDocumentMoniker": "Profile.aspx",
+              "ToolTip": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\BetterSchool\\Profile.aspx",
+              "RelativeToolTip": "Profile.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-06-06T14:24:07.745Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Login.css",
-              "DocumentMoniker": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\BetterSchool\\css\\Login.css",
-              "RelativeDocumentMoniker": "css\\Login.css",
-              "ToolTip": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\BetterSchool\\css\\Login.css",
-              "RelativeToolTip": "css\\Login.css",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABMAAAARAAAA",
+              "Title": "Profile.css",
+              "DocumentMoniker": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\BetterSchool\\css\\Profile.css",
+              "RelativeDocumentMoniker": "css\\Profile.css",
+              "ToolTip": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\BetterSchool\\css\\Profile.css",
+              "RelativeToolTip": "css\\Profile.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-06-05T15:40:11.391Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Home.css",
-              "DocumentMoniker": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\BetterSchool\\css\\Home.css",
-              "RelativeDocumentMoniker": "css\\Home.css",
-              "ToolTip": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\BetterSchool\\css\\Home.css",
-              "RelativeToolTip": "css\\Home.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-06-05T15:40:09.305Z",
+              "WhenOpened": "2024-06-06T14:24:39.062Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Login.aspx",
-              "DocumentMoniker": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\BetterSchool\\Login.aspx",
-              "RelativeDocumentMoniker": "Login.aspx",
-              "ToolTip": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\BetterSchool\\Login.aspx",
-              "RelativeToolTip": "Login.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-06-04T20:20:49.4Z",
+              "Title": "Login.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\BetterSchool\\Login.aspx.cs",
+              "RelativeDocumentMoniker": "Login.aspx.cs",
+              "ToolTip": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\BetterSchool\\Login.aspx.cs",
+              "RelativeToolTip": "Login.aspx.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAxwBQAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T20:20:41.277Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "SignUp.aspx",
               "DocumentMoniker": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\BetterSchool\\SignUp.aspx",
               "RelativeDocumentMoniker": "SignUp.aspx",
@@ -167,109 +240,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Login.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\BetterSchool\\Login.aspx.cs",
-              "RelativeDocumentMoniker": "Login.aspx.cs",
-              "ToolTip": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\BetterSchool\\Login.aspx.cs",
-              "RelativeToolTip": "Login.aspx.cs",
-              "ViewState": "AQIAAB8AAAAAAAAAAAAQwCwAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T20:20:41.277Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Home.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\BetterSchool\\Home.aspx.cs",
-              "RelativeDocumentMoniker": "Home.aspx.cs",
-              "ToolTip": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\BetterSchool\\Home.aspx.cs",
-              "RelativeToolTip": "Home.aspx.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T20:08:40.671Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "SignUp.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\BetterSchool\\SignUp.aspx.cs",
-              "RelativeDocumentMoniker": "SignUp.aspx.cs",
-              "ToolTip": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\BetterSchool\\SignUp.aspx.cs",
-              "RelativeToolTip": "SignUp.aspx.cs",
-              "ViewState": "AQIAADEAAAAAAAAAAAAAAEMAAAAvAAAA",
+              "Title": "Profile.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\BetterSchool\\Profile.aspx.cs",
+              "RelativeDocumentMoniker": "Profile.aspx.cs",
+              "ToolTip": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\BetterSchool\\Profile.aspx.cs",
+              "RelativeToolTip": "Profile.aspx.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABUAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T20:21:32.073Z",
+              "WhenOpened": "2024-06-06T14:29:05.445Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Global.css",
-              "DocumentMoniker": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\BetterSchool\\css\\Global.css",
-              "RelativeDocumentMoniker": "css\\Global.css",
-              "ToolTip": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\BetterSchool\\css\\Global.css",
-              "RelativeToolTip": "css\\Global.css",
-              "ViewState": "AQIAAIkAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-06-05T15:39:23.925Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Components.cs",
-              "DocumentMoniker": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\BetterSchool\\Components.cs",
-              "RelativeDocumentMoniker": "Components.cs",
-              "ToolTip": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\BetterSchool\\Components.cs",
-              "RelativeToolTip": "Components.cs",
-              "ViewState": "AQIAADwAAAAAAAAAAAAYwEkAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T20:16:04.29Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ShahafApi.cs",
-              "DocumentMoniker": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\BetterSchool\\apis\\ShahafApi.cs",
-              "RelativeDocumentMoniker": "apis\\ShahafApi.cs",
-              "ToolTip": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\BetterSchool\\apis\\ShahafApi.cs",
-              "RelativeToolTip": "apis\\ShahafApi.cs",
-              "ViewState": "AQIAALAAAAAAAAAAAAAvwMAAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T20:10:07.617Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "SignUp.js",
-              "DocumentMoniker": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\BetterSchool\\js\\SignUp.js",
-              "RelativeDocumentMoniker": "js\\SignUp.js",
-              "ToolTip": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\BetterSchool\\js\\SignUp.js",
-              "RelativeToolTip": "js\\SignUp.js",
-              "ViewState": "AQIAACMAAAAAAAAAAAAgwDYAAABHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-06-05T15:35:43.58Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Default.aspx",
-              "DocumentMoniker": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\BetterSchool\\Default.aspx",
-              "RelativeDocumentMoniker": "Default.aspx",
-              "ToolTip": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\BetterSchool\\Default.aspx",
-              "RelativeToolTip": "Default.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-06-04T20:28:49.372Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
               "Title": "Home.aspx",
               "DocumentMoniker": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\BetterSchool\\Home.aspx",
               "RelativeDocumentMoniker": "Home.aspx",
@@ -282,7 +266,192 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SignUp.aspx.designer.cs",
+              "DocumentMoniker": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\BetterSchool\\SignUp.aspx.designer.cs",
+              "RelativeDocumentMoniker": "SignUp.aspx.designer.cs",
+              "ToolTip": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\BetterSchool\\SignUp.aspx.designer.cs",
+              "RelativeToolTip": "SignUp.aspx.designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T21:38:03.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Profile.aspx.designer.cs",
+              "DocumentMoniker": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\BetterSchool\\Profile.aspx.designer.cs",
+              "RelativeDocumentMoniker": "Profile.aspx.designer.cs",
+              "ToolTip": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\BetterSchool\\Profile.aspx.designer.cs",
+              "RelativeToolTip": "Profile.aspx.designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T21:37:50.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Global.js",
+              "DocumentMoniker": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\BetterSchool\\js\\Global.js",
+              "RelativeDocumentMoniker": "js\\Global.js",
+              "ToolTip": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\BetterSchool\\js\\Global.js",
+              "RelativeToolTip": "js\\Global.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-06-04T20:18:45.137Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Profile.js",
+              "DocumentMoniker": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\BetterSchool\\js\\Profile.js",
+              "RelativeDocumentMoniker": "js\\Profile.js",
+              "ToolTip": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\BetterSchool\\js\\Profile.js",
+              "RelativeToolTip": "js\\Profile.js",
+              "ViewState": "AQIAABgAAAAAAAAAAAAcwBwAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-06-06T14:25:16.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Login.aspx",
+              "DocumentMoniker": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\BetterSchool\\Login.aspx",
+              "RelativeDocumentMoniker": "Login.aspx",
+              "ToolTip": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\BetterSchool\\Login.aspx",
+              "RelativeToolTip": "Login.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-06-04T20:20:49.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 15,
+              "Title": "Home.css",
+              "DocumentMoniker": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\BetterSchool\\css\\Home.css",
+              "RelativeDocumentMoniker": "css\\Home.css",
+              "ToolTip": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\BetterSchool\\css\\Home.css",
+              "RelativeToolTip": "css\\Home.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-05T15:40:09.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "SignUp.css",
+              "DocumentMoniker": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\BetterSchool\\css\\SignUp.css",
+              "RelativeDocumentMoniker": "css\\SignUp.css",
+              "ToolTip": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\BetterSchool\\css\\SignUp.css",
+              "RelativeToolTip": "css\\SignUp.css",
+              "ViewState": "AQIAAGIAAAAAAAAAAAAIwH0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-05T15:40:21.763Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "SignUp.js",
+              "DocumentMoniker": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\BetterSchool\\js\\SignUp.js",
+              "RelativeDocumentMoniker": "js\\SignUp.js",
+              "ToolTip": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\BetterSchool\\js\\SignUp.js",
+              "RelativeToolTip": "js\\SignUp.js",
+              "ViewState": "AQIAAB8AAAAAAAAAAAA/wDkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-06-05T15:35:43.58Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Login.css",
+              "DocumentMoniker": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\BetterSchool\\css\\Login.css",
+              "RelativeDocumentMoniker": "css\\Login.css",
+              "ToolTip": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\BetterSchool\\css\\Login.css",
+              "RelativeToolTip": "css\\Login.css",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAcwCsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-05T15:40:11.391Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Default.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\BetterSchool\\Default.aspx.cs",
+              "RelativeDocumentMoniker": "Default.aspx.cs",
+              "ToolTip": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\BetterSchool\\Default.aspx.cs",
+              "RelativeToolTip": "Default.aspx.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T20:28:58.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Default.aspx.designer.cs",
+              "DocumentMoniker": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\BetterSchool\\Default.aspx.designer.cs",
+              "RelativeDocumentMoniker": "Default.aspx.designer.cs",
+              "ToolTip": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\BetterSchool\\Default.aspx.designer.cs",
+              "RelativeToolTip": "Default.aspx.designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T14:42:44.55Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Login.aspx.designer.cs",
+              "DocumentMoniker": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\BetterSchool\\Login.aspx.designer.cs",
+              "RelativeDocumentMoniker": "Login.aspx.designer.cs",
+              "ToolTip": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\BetterSchool\\Login.aspx.designer.cs",
+              "RelativeToolTip": "Login.aspx.designer.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T20:21:11.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Default.aspx",
+              "DocumentMoniker": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\BetterSchool\\Default.aspx",
+              "RelativeDocumentMoniker": "Default.aspx",
+              "ToolTip": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\BetterSchool\\Default.aspx",
+              "RelativeToolTip": "Default.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-06-04T20:28:49.372Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Login.js",
+              "DocumentMoniker": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\BetterSchool\\js\\Login.js",
+              "RelativeDocumentMoniker": "js\\Login.js",
+              "ToolTip": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\BetterSchool\\js\\Login.js",
+              "RelativeToolTip": "js\\Login.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-06-06T14:25:17.505Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ShahafApi.cs",
+              "DocumentMoniker": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\BetterSchool\\apis\\ShahafApi.cs",
+              "RelativeDocumentMoniker": "apis\\ShahafApi.cs",
+              "ToolTip": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\BetterSchool\\apis\\ShahafApi.cs",
+              "RelativeToolTip": "apis\\ShahafApi.cs",
+              "ViewState": "AQIAALAAAAAAAAAAAAAvwMAAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T20:10:07.617Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
               "Title": "Home.aspx.designer.cs",
               "DocumentMoniker": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\BetterSchool\\Home.aspx.designer.cs",
               "RelativeDocumentMoniker": "Home.aspx.designer.cs",
@@ -294,19 +463,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Default.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\BetterSchool\\Default.aspx.cs",
-              "RelativeDocumentMoniker": "Default.aspx.cs",
-              "ToolTip": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\BetterSchool\\Default.aspx.cs",
-              "RelativeToolTip": "Default.aspx.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T20:28:58.492Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 26,
               "Title": "Web.config",
               "DocumentMoniker": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\BetterSchool\\Web.config",
               "RelativeDocumentMoniker": "Web.config",
@@ -319,19 +476,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Login.aspx.designer.cs",
-              "DocumentMoniker": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\BetterSchool\\Login.aspx.designer.cs",
-              "RelativeDocumentMoniker": "Login.aspx.designer.cs",
-              "ToolTip": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\BetterSchool\\Login.aspx.designer.cs",
-              "RelativeToolTip": "Login.aspx.designer.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T20:21:11.915Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 27,
               "Title": "Home.js",
               "DocumentMoniker": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\BetterSchool\\js\\Home.js",
               "RelativeDocumentMoniker": "js\\Home.js",
@@ -343,19 +488,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Global.js",
-              "DocumentMoniker": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\BetterSchool\\js\\Global.js",
-              "RelativeDocumentMoniker": "js\\Global.js",
-              "ToolTip": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\BetterSchool\\js\\Global.js",
-              "RelativeToolTip": "js\\Global.js",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-06-04T20:18:45.137Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 28,
               "Title": "MyAdoHelperSQL.cs",
               "DocumentMoniker": "C:\\Users\\yon\\OneDrive\\Desktop\\f\\Coding\\C#\\Yud Aleph 2023-2024\\Web\\IrisDotnetFinalProject\\BetterSchool\\apis\\MyAdoHelperSQL.cs",
               "RelativeDocumentMoniker": "apis\\MyAdoHelperSQL.cs",

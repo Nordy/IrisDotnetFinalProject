@@ -4,7 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title>Login</title>
+    <title>BetterSchool - Login</title>
     <link rel="stylesheet" type="text/css" href="css/Global.css" />
     <link rel="stylesheet" type="text/css" href="css/Login.css" />
     <link rel="icon" type="image/png" href="images/logo.png" />

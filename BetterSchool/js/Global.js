@@ -1,13 +1,22 @@
-﻿window.addEventListener('scroll', setNavBack);
-
+﻿
 
 setTimeout(main, 1);
 function main() {
     setNavBack();
-
-
+    window.addEventListener('scroll', setNavBack);
+    document.getElementsByClassName("navExtraButton")[0].addEventListener("mouseover", dropdownOn);
+    document.getElementsByClassName("navExtraButton")[0].addEventListener("mouseleave", dropdownOff);
 }
 
+function dropdownOn() {
+    console.log("on");
+    document.getElementsByClassName("dropdown")[0].style = "display: block;";
+}
+
+function dropdownOff() {
+    console.log("off");
+    document.getElementsByClassName("dropdown")[0].style = "display: none;";
+}
 function setNavBack() {
     navbar = document.getElementById("nav");
     if (window.scrollY < 10) {

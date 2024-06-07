@@ -4,7 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <title>BetterSchool</title>
+    <title>BetterSchool - Home</title>
     <link rel="stylesheet" type="text/css" href="css/Global.css" />
     <link rel="stylesheet" type="text/css" href="css/Home.css" />
     <link rel="icon" type="image/png" href="images/logo.png" />

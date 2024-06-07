@@ -19,6 +19,11 @@ namespace BetterSchool
         public string error;
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (Session["isLoggedIn"] != null)
+            {
+                Response.Redirect("Profile.aspx");
+                return;
+            }
             navbar = Components.Navbar((Session["isLoggedIn"] != null ? (bool)Session["isLoggedIn"] : false), "Signup", (Session["isAdmin"] != null ? (bool)Session["isAdmin"] : false), (Session["fname"] != null ? (string)Session["fname"] : null));
             title = Components.Title();
             string fileName = "db.mdf";
@@ -73,7 +78,6 @@ namespace BetterSchool
                 {
                     status = false;
                     error = "Username already exists!";
-                    return;
                 }
             }
         }

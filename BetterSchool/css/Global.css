@@ -7,7 +7,6 @@
     --accent1-color: rgb(95, 89, 128); /* blue */
     --accent2-color: rgb(12, 131, 70); /* green */
     --accent3-color: rgb(141, 167, 190); /* light blue */
-    
 }
 
 
@@ -74,8 +73,6 @@ i {
     margin-right: 40px;
 }
 
-
-
 #nav ul {
     list-style: none;
     display: flex;
@@ -116,6 +113,32 @@ i {
 }
 
 
+
+.dropdownContainer {
+    position: relative;
+    display: inline-block;
+    
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    background-color: var(--text-color);
+    box-shadow: rgba(0, 0, 0, 0.4) 2px 2px;
+}
+
+.dropdown a {
+    color: var(--background-color);
+    padding: 15px 25px 15px 25px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.dropdown a:hover {
+    background-color: var(--secondary-color);
+}
 
 .navButton {
     color: var(--secondary-color);
@@ -160,3 +183,5 @@ i {
     height: 100px;
     margin: 20px;
 }
+
+

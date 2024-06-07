@@ -4,7 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title>Sign Up</title>
+    <title>BetterSchool - Sign Up</title>
     <link rel="stylesheet" type="text/css" href="css/Global.css" />
     <link rel="stylesheet" type="text/css" href="css/SignUp.css" />
     <link rel="icon" type="image/png" href="images/logo.png" />

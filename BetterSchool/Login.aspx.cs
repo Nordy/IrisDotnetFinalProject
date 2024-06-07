@@ -11,17 +11,21 @@ namespace BetterSchool
 {
     public partial class Login : System.Web.UI.Page
     {
-        protected string navbar;
+        public string navbar;
         public string title;
         public bool status;
         public string error;
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (Session["isLoggedIn"] != null)
+            {
+                Response.Redirect("Profile.aspx");
+                return;
+            }
             navbar = Components.Navbar((Session["isLoggedIn"] != null ? (bool)Session["isLoggedIn"] : false), "Login", (Session["isAdmin"] != null ? (bool)Session["isAdmin"] : false), (Session["fname"] != null ? (string)Session["fname"] : null));
             title = Components.Title();
             status = true;
             error = "";
-
             if (Request.Form["Submit"] != null)
             {
                 status = true;
@@ -47,13 +51,11 @@ namespace BetterSchool
                     Session["lname"] = table.Rows[0]["lname"];
                     Session["isLoggedIn"] = true;
                     Response.Redirect("Dashboard.aspx");
-                    return;
 
                 } else
                 {
                     status = false;
                     error = "Incorrect Username or Password!";
-                    return;
                 }
             }
         }

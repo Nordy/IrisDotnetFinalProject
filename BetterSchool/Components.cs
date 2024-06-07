@@ -29,49 +29,63 @@ namespace BetterSchool
             {
 
                 element += $@"
-                    <li><a href=""Dashboard.aspx"" name=""dashboard"" class=""navButton {(currentPage == "Dashboard" ? "navSelected" : "")}"">
+                    <li><a href=""Dashboard.aspx"" class=""navButton {(currentPage == "Dashboard" ? "navSelected" : "")}"">
                         <div class=""fa fa-home""></div>
                         Dashboard
                     </a></li>
-                    <li><a href=""Schedule.aspx"" name=""schedule"" class=""navButton {(currentPage == "Schedule" ? "navSelected" : "")}"">
+                    <li><a href=""Schedule.aspx"" class=""navButton {(currentPage == "Schedule" ? "navSelected" : "")}"">
                         <div class=""fa fa-calendar""></div>
                         Schedule
                     </a></li>
-                    <li><a href=""Upcoming.aspx"" name=""upcoming"" class=""navButton {(currentPage == "Upcoming" ? "navSelected" : "")}"">
+                    <li><a href=""Upcoming.aspx"" class=""navButton {(currentPage == "Upcoming" ? "navSelected" : "")}"">
                         <div class=""fa fa-bookmark""></div>
                         Upcoming
                     </a></li>
-                    <li><a href=""Grades.aspx"" name=""grades"" class=""navButton {(currentPage == "Grades" ? "navSelected" : "")}"">
+                    <li><a href=""Grades.aspx"" class=""navButton {(currentPage == "Grades" ? "navSelected" : "")}"">
                         <div class=""fa fa-book""></div>
                         Grades
                     </a></li>
                     {(isAdmin ? $@"
-                        <li><a href=""Admin.aspx"" name=""admin"" class=""navButton {(currentPage == "Admin" ? "navSelected" : "")}"">
+                        <li><a href=""Admin.aspx"" class=""navButton {(currentPage == "Admin" ? "navSelected" : "")}"">
                             <div class=""fa fa-lock""></div>
                             Admin Panel
                         </a></li>"
                     : "")}
                     <div class=""navRight"">
-                        <li><a href=""Profile.aspx"" name=""profile"" class=""navExtraButton"" data-text=""Profile"">
-                            <div class=""fa fa-user""></div>
-                            {fname}
-                        </a></li>
+                        <li>
+                            <a class=""navExtraButton"">
+                                <div class=""fa fa-user""></div>
+                                {fname}
+                                <div class=""dropdownContainer"">
+                                    <div class=""dropdown"">
+                                        <a href=""Profile.aspx"">
+                                            <div class=""fa fa-pencil""></div>
+                                            Edit Profile
+                                        </a>
+                                        <a href=""Logout.aspx"">
+                                            <div class=""fa fa-sign-out""></div>
+                                            Log Outs
+                                        </a>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
                     </div>
                     ";
             }
             else
             {
                 element += $@"
-                    <li><a href=""Home.aspx"" name=""home"" class=""navButton {(currentPage == "Home" ? "navSelected" : "")}"">
+                    <li><a href=""Home.aspx"" class=""navButton {(currentPage == "Home" ? "navSelected" : "")}"">
                         <div class=""fa fa-home""></div>
                         Home
                     </a></li>
-                    <li><a href=""Schedule.aspx"" name=""schedule"" class=""navButton {(currentPage == "Schedule" ? "navSelected" : "")}"">
+                    <li><a href=""Schedule.aspx"" class=""navButton {(currentPage == "Schedule" ? "navSelected" : "")}"">
                         <div class=""fa fa-calendar""></div>
                         Schedule
                     </a></li>
                     <div class=""navRight"">
-                        <li><a href=""Login.aspx"" name=""login"" class=""navExtraButton"">
+                        <li><a href=""Login.aspx"" class=""navExtraButton"">
                             <div class=""fa fa-user""></div>
                             Login
                         </a></li>
