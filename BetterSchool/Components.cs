@@ -53,7 +53,7 @@ namespace BetterSchool
                     : "")}
                     <div class=""navRight"">
                         <li>
-                            <a class=""navExtraButton"">
+                            <div class=""navExtraButton navExtraButtonLoggedIn"">
                                 <div class=""fa fa-user""></div>
                                 {fname}
                                 <div class=""dropdownContainer"">
@@ -64,11 +64,11 @@ namespace BetterSchool
                                         </a>
                                         <a href=""Logout.aspx"">
                                             <div class=""fa fa-sign-out""></div>
-                                            Log Outs
+                                            Log Out
                                         </a>
                                     </div>
                                 </div>
-                            </a>
+                            </div>
                         </li>
                     </div>
                     ";

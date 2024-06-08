@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <link rel="icon" type="image/png" href="images/logo.png" />
-    <title>Redirecting...</title>
+    <title>BetterSchool - Redirecting...</title>
 </head>
 <body>
     <h1>Redirecting...</h1>
