@@ -18,7 +18,7 @@
         <form method="post" class="centered" action="SignUp.aspx">
             <div id="form">
                 <h1>Sign Up</h1>
-                <div class="parallel">
+                <div class="parallel centered">
                     <div class="perpendicular">
                         <label>First Name:</label>
                         <input <%=(status ? "" : "style=\"border: solid 2px red\"")%> type="text" name="fname" placeholder="Type Here..." />
@@ -39,7 +39,8 @@
                         <input <%=(status ? "" : "style=\"border: solid 2px red\"")%> type="password" name="password" placeholder="Type Here..." />  
                     </div>
                 </div>
-                <br /> 
+
+                <br />
                 <div class="perpendicular centered">
                     <label>Class:</label>
                     <div id="myMultiselect" class="multiselect">
@@ -53,6 +54,17 @@
                            <%=classes %>
                       </div>
                     </div>
+                </div>
+                <br />
+                <div class="parallel">
+                  <div class="perpendicular">
+                      <label>Mashov ID:</label>
+                      <input type="text" name="mashovId" placeholder="Type Here (Optional)..." />
+                  </div>
+                  <div class="perpendicular">
+                      <label>Mashov Password:</label>
+                      <input type="password" name="mashovPassword" placeholder="Type Here (Optional)..." />  
+                  </div>
                 </div>
                 <h3><%=error %></h3>
                 <br />

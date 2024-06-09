@@ -58,9 +58,9 @@ namespace BetterSchool
                                 {fname}
                                 <div class=""dropdownContainer"">
                                     <div class=""dropdown"">
-                                        <a href=""Profile.aspx"">
+                                        <a href=""Update.aspx"">
                                             <div class=""fa fa-pencil""></div>
-                                            Edit Profile
+                                            Update Profile
                                         </a>
                                         <a href=""Logout.aspx"">
                                             <div class=""fa fa-sign-out""></div>

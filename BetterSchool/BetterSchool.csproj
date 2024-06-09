@@ -88,7 +88,7 @@
     <Content Include="css\Global.css" />
     <Content Include="css\Home.css" />
     <Content Include="css\Login.css" />
-    <Content Include="css\Profile.css" />
+    <Content Include="css\Update.css" />
     <Content Include="css\SignUp.css" />
     <Content Include="Default.aspx" />
     <Content Include="Home.aspx" />
@@ -99,12 +99,13 @@
     <Content Include="js\Global.js" />
     <Content Include="js\Home.js" />
     <Content Include="js\Login.js" />
-    <Content Include="js\Profile.js" />
+    <Content Include="js\Update.js" />
     <Content Include="js\SignUp.js" />
     <Content Include="Login.aspx" />
     <Content Include="Logout.aspx" />
     <Content Include="Profile.aspx" />
     <Content Include="SignUp.aspx" />
+    <Content Include="Update.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -153,6 +154,13 @@
     </Compile>
     <Compile Include="SignUp.aspx.designer.cs">
       <DependentUpon>SignUp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Update.aspx.cs">
+      <DependentUpon>Update.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Update.aspx.designer.cs">
+      <DependentUpon>Update.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

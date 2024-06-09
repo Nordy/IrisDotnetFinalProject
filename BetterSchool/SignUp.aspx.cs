@@ -54,6 +54,8 @@ namespace BetterSchool
                 string username = Request.Form["username"];
                 string password = Request.Form["password"];
                 string grade = Request.Form["class"];
+                string mashovId = Request.Form["mashovId"];
+                string mashovPassword = Request.Form["mashovPassword"];
                 bool isAdmin = false;
                 if (!Check_Input(username) || !Check_Input(password) || !Check_Input(fname) || !Check_Input(lname) || !Check_Input(grade))
                 {
@@ -65,7 +67,7 @@ namespace BetterSchool
                 string selectSql = $"SELECT * FROM Tusers WHERE username='{username}'";
                 if (!MyAdoHelper.IsExist(fileName, selectSql))
                 {
-                    string sql = $"INSERT INTO Tusers(username, password, fname, lname, class, isAdmin) VALUES(N'{username}', N'{password}', N'{fname}', N'{lname}', N'{grade}', '{isAdmin}')";
+                    string sql = $"INSERT INTO Tusers(username, password, fname, lname, class, isAdmin, mashovId, mashovPassword) VALUES(N'{username}', N'{password}', N'{fname}', N'{lname}', N'{grade}', '{isAdmin}', '{mashovId}', N'{mashovPassword}')";
                     MyAdoHelper.DoQuery(fileName, sql);
                     Session["username"] = username;
                     Session["isAdmin"] = isAdmin;
