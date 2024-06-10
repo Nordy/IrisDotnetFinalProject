@@ -141,6 +141,7 @@ i {
     display: flex;
     flex-direction: row;
     gap: 10px;
+
 }
 
 .dropdown a:hover {

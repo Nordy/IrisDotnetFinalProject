@@ -85,17 +85,20 @@
     <Content Include="bin\Newtonsoft.Json.dll" />
     <Content Include="bin\WebDriver.dll" />
     <Content Include="bin\WebDriver.Support.dll" />
+    <Content Include="css\Dashboard.css" />
     <Content Include="css\Global.css" />
     <Content Include="css\Home.css" />
     <Content Include="css\Login.css" />
     <Content Include="css\Update.css" />
     <Content Include="css\SignUp.css" />
+    <Content Include="Dashboard.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="Home.aspx" />
     <Content Include="images\gitLogo.jpeg" />
     <Content Include="images\home.png" />
     <Content Include="images\logo.png" />
     <Content Include="images\timetable.png" />
+    <Content Include="js\Dashboard.js" />
     <Content Include="js\Global.js" />
     <Content Include="js\Home.js" />
     <Content Include="js\Login.js" />
@@ -103,7 +106,6 @@
     <Content Include="js\SignUp.js" />
     <Content Include="Login.aspx" />
     <Content Include="Logout.aspx" />
-    <Content Include="Profile.aspx" />
     <Content Include="SignUp.aspx" />
     <Content Include="Update.aspx" />
     <Content Include="Web.config" />
@@ -112,6 +114,13 @@
     <Compile Include="apis\MyAdoHelperSQL.cs" />
     <Compile Include="apis\ShahafApi.cs" />
     <Compile Include="Components.cs" />
+    <Compile Include="Dashboard.aspx.cs">
+      <DependentUpon>Dashboard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dashboard.aspx.designer.cs">
+      <DependentUpon>Dashboard.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -139,13 +148,6 @@
     </Compile>
     <Compile Include="Logout.aspx.designer.cs">
       <DependentUpon>Logout.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Profile.aspx.cs">
-      <DependentUpon>Profile.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Profile.aspx.designer.cs">
-      <DependentUpon>Profile.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SignUp.aspx.cs">

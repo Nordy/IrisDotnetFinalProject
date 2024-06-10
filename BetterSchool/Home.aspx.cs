@@ -19,7 +19,7 @@ namespace BetterSchool
                 return;
             }
             navbar = Components.Navbar((Session["isLoggedIn"] != null ? (bool)Session["isLoggedIn"] : false), "Home", (Session["isAdmin"] != null ? (bool)Session["isAdmin"] : false), (Session["fname"] != null ? (string)Session["fname"] : null));
-            this.title = Components.Title();
+            title = Components.Title();
         }
     }
 }

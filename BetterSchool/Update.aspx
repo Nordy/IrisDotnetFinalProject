@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Update.aspx.cs" Inherits="BetterSchool.Update" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Update.aspx.cs" Inherits="BetterSchool.Update" %>
 
 <!DOCTYPE html>
 
@@ -15,7 +15,7 @@
     <%=navbar %>
     <div id="container">
         <%=title %>
-        <form method="post" class="centered" action="Profile.aspx">
+        <form method="post" class="centered" action="Update.aspx">
             <div id="form">
                 <h1>Update Profile</h1>
                 <div class="parallel">
@@ -53,11 +53,11 @@
                 <div class="parallel">
                   <div class="perpendicular">
                       <label>Mashov ID:</label>
-                      <input type="text" name="mashovId" placeholder="<%=(mashovId != null) ? mashovId : "Type Here (Optional)..." %>" />
+                      <input type="text" name="mashovId" placeholder="<%=(mashovId.Length > 0) ? mashovId : "Type Here (Optional)..." %>" />
                   </div>
                   <div class="perpendicular">
                       <label>Mashov Password:</label>
-                      <input type="password" name="mashovPassword" <%=(mashovPassword != null) ? "New Mashov Password (Optional)..." : "Type Here (Optional)..." %> />  
+                      <input type="password" name="mashovPassword" placeholder="<%=(mashovPassword.Length > 0) ? "New Mashov Password (Optional)..." : "Type Here (Optional)..." %>" />  
                   </div>
                 </div>
                 <br />

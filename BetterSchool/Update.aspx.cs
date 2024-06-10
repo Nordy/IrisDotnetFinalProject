@@ -39,8 +39,8 @@ namespace BetterSchool
             DataTable table = MyAdoHelper.ExecuteDataTable(fileName, selectSql);
             password = (string)table.Rows[0]["password"];
             grade = (string)table.Rows[0]["class"];
-            mashovId = (string)table.Rows[0]["mashovId"];
-            mashovPassword = (string)table.Rows[0]["mashovPassword"];
+            mashovId = (table.Rows[0]["mashovId"] != DBNull.Value) ? (string)table.Rows[0]["mashovId"] : null;
+            mashovPassword = (table.Rows[0]["mashovPassword"] != DBNull.Value) ? (string)table.Rows[0]["mashovPassword"] : null;
             string selectDistinctSql = "SELECT DISTINCT class FROM Tschedule";
             DataTable distinctTable = MyAdoHelper.ExecuteDataTable(fileName, selectDistinctSql);
             List<string> list = new List<string>();
