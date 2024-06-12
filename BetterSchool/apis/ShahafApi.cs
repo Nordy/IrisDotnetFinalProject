@@ -106,7 +106,17 @@ namespace BetterSchool.apis
             string selectSql = $"SELECT * FROM Tschedule WHERE class=N'{grade}' and teacher=N'{teacher}' and hour='{hour}' and day='{day}'";
             if (MyAdoHelper.IsExist(fileName, selectSql))
                 return MyAdoHelper.ExecuteDataTable(fileName, selectSql);
-            return null;
+            return new DataTable();
+        }
+        /// <summary>
+        /// Gets information from the database
+        /// </summary>
+        public static DataTable GetFromDatabase(string teacher)
+        {
+            string selectSql = $"SELECT * FROM Tschedule WHERE teacher=N'{teacher}'";
+            if (MyAdoHelper.IsExist(fileName, selectSql))
+                return MyAdoHelper.ExecuteDataTable(fileName, selectSql);
+            return new DataTable();
         }
 
         public static void CleanChanges()
@@ -131,10 +141,11 @@ namespace BetterSchool.apis
                 DateTime datetime;
                 if (DateTime.TryParseExact(date, "dd.MM.yyyy", CultureInfo.InvariantCulture, DateTimeStyles.None, out datetime))
                 {
-                    int dayOfWeek = (int)datetime.DayOfWeek;
 
 
                     DateTime currentDate = DateTime.Now;
+
+                    int dayOfWeek = (int)currentDate.DayOfWeek;
 
                     // Calculate the start of the current week (Sunday)
                     DateTime startOfWeek = currentDate.AddDays(-(int)currentDate.DayOfWeek);
@@ -254,9 +265,9 @@ namespace BetterSchool.apis
         public static void MoveLessonToDifferentTime(int hour, int newHour, int day, string grade, string teacher)
         {
             EditLesson(hour, day, grade, teacher, 3); // removed lesson
-            CancelLessons(newHour, day, grade);
             string room = GetFromDatabase(grade, hour, day, teacher).Rows[0]["room"].ToString();
-            EditLesson(newHour, day, grade, teacher, 4, room); // added lesson
+            string subject = GetFromDatabase(grade, hour, day, teacher).Rows[0]["subject"].ToString();
+            AddLesson(subject, room, teacher, newHour, day, grade, 4); // added lesson
 
         }
         /// <summary>
@@ -318,14 +329,15 @@ namespace BetterSchool.apis
             if (MyAdoHelper.IsExist(fileName, selectSql))
             {
                 sql = $"UPDATE Tschedule SET operation='{operation}', room=N'{room}' WHERE class=N'{grade}' and teacher=N'{teacher}' and hour={hour} and day={day}";
-
             }
             else
             {
-                var subject = GetFromDatabase(grade, hour, day, teacher).Rows[0]["subject"];
-                sql = $"INSERT INTO Tschedule(subject, teacher, room, class, hour, day, operation) VALUES(N'{subject}', N'{teacher}', N'{room}', N'{grade}', '{hour}', '{day}', '{operation}')";
+                    string subject = (string)GetFromDatabase(teacher).Rows[0]["subject"];
+                    sql = $"INSERT INTO Tschedule(subject, teacher, room, class, hour, day, operation) VALUES(N'{subject}', N'{teacher}', N'{room}', N'{grade}', '{hour}', '{day}', '{operation}')";
             }
             MyAdoHelper.DoQuery(fileName, sql);
+
+
 
         }
         /// <summary>
@@ -368,6 +380,28 @@ namespace BetterSchool.apis
 
         }
 
+        /// <summary>
+        /// Either adds or updates an existing lesson
+        /// </summary>
+        public static void AddLesson(string subject, string room, string teacher, int hour, int day, string grade, int operation)
+        {
+
+            room = (room != null) ? room.Replace("\'", "\'\'") : null;
+            teacher = teacher.Replace("\'", "\'\'");
+            grade = grade.Replace("\'", "\'\'");
+            subject = subject.Replace("\'", "\'\'");
+            string selectSql = $"SELECT * FROM Tschedule WHERE class=N'{grade}' and teacher=N'{teacher}' and hour='{hour}' and day='{day}'";
+            string sql;
+            if (!MyAdoHelper.IsExist(fileName, selectSql))
+            {
+
+                sql = $"INSERT INTO Tschedule(subject, teacher, room, class, hour, day, operation) VALUES(N'{subject}', N'{teacher}', N'{room}', N'{grade}', '{hour}', '{day}', '{operation}')";
+                MyAdoHelper.DoQuery(fileName, sql);
+
+            }
+
+
+        }
 
         /// <summary>
         /// Finds the element and clicks on it

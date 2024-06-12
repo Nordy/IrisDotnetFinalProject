@@ -1,0 +1,133 @@
+﻿table {
+    border-collapse: collapse;
+}
+
+td, th {
+    padding: 0;
+    text-align: center;
+    border: 2px solid rgb(20, 20, 20);
+}
+
+th {
+    font-size: 15px;
+    padding: 10px;
+}
+
+tr:nth-child(even) td, th {
+    background-color: rgb(21, 21, 21);
+    border: 2px solid rgb(40, 40, 40);
+}
+tr {
+    background-color: rgb(40, 40, 40);
+}
+
+select {
+    border: none;
+    margin: 3px;
+    margin-bottom: 10px;
+}
+
+input {
+    padding: 5px;
+    margin-bottom: 8px;
+    cursor: pointer;
+    border: none;
+    background-color: white;
+}
+
+.lesson {
+    padding: 10px;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+}
+
+.subject {
+    margin: 5px;
+}
+
+
+.subject p {
+    display: inline;
+    direction: rtl;
+    margin: 0;
+    font-size: 12px;
+}
+
+.subject h3 {
+    margin: 0px;
+    font-size: 15px;
+}
+
+.subjectCancel {
+    background-color: red;
+}
+
+.subjectMove {
+    background-color: red;
+}
+
+.subjectdd {
+    background-color: greenyellow;
+}
+
+.selectBox {
+    position: relative;
+}
+
+.selectBox select {
+    width: 190px;
+    color: var(--secondary-color);
+    padding: 5px;
+}
+
+.overSelect {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+
+#mySelectOptions {
+    display: none;
+    border: 0.5px #7c7c7c solid;
+    background-color: #ffffff;
+    max-height: 150px;
+    overflow-y: scroll;
+    overflow-x: clip;
+    align-items: center;
+    justify-content: center;
+    width: 190px;
+    font-size: 17px;
+    direction: rtl;
+}
+
+
+#mySelectOptions label {
+    display: inline;
+    font-weight: normal;
+    display: block;
+    white-space: nowrap;
+    min-height: 1.2em;
+    background-color: #ffffff00;
+    padding: 0 2.25rem 0;
+    color: var(--secondary-color);
+    display: flex;
+    flex-direction: row;
+    margin-left: -20px;
+    float: left;
+    width: 80%;
+}
+
+#mySelectOptions label input {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 0;
+    left: 0;
+}
+
+#mySelectOptions label:hover {
+    background-color: var(--accent2-color);
+}

@@ -46,13 +46,13 @@
                     <div id="myMultiselect" class="multiselect">
                         <div id="mySelectLabel" class="selectBox" onclick="toggleCheckboxArea()">
                             <select <%=(status ? "" : "style=\"border: solid 2px red\"")%> class="form-select">
-                              <option>Placeholder</option>
+                                <option>Placeholder</option>
                             </select>
                             <div class="overSelect"></div>
                         </div>
-                      <div id="mySelectOptions">
-                           <%=classes %>
-                      </div>
+                        <div id="mySelectOptions">
+                            <%=classes %>
+                        </div>
                     </div>
                 </div>
                 <br />

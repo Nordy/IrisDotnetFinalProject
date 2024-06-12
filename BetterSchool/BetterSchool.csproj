@@ -91,6 +91,7 @@
     <Content Include="css\Global.css" />
     <Content Include="css\Home.css" />
     <Content Include="css\Login.css" />
+    <Content Include="css\Schedule.css" />
     <Content Include="css\Update.css" />
     <Content Include="css\SignUp.css" />
     <Content Include="Dashboard.aspx" />
@@ -105,10 +106,12 @@
     <Content Include="js\Global.js" />
     <Content Include="js\Home.js" />
     <Content Include="js\Login.js" />
+    <Content Include="js\Schedule.js" />
     <Content Include="js\Update.js" />
     <Content Include="js\SignUp.js" />
     <Content Include="Login.aspx" />
     <Content Include="Logout.aspx" />
+    <Content Include="Schedule.aspx" />
     <Content Include="SignUp.aspx" />
     <Content Include="Update.aspx" />
     <Content Include="Web.config" />
@@ -160,6 +163,13 @@
       <DependentUpon>Logout.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Schedule.aspx.cs">
+      <DependentUpon>Schedule.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Schedule.aspx.designer.cs">
+      <DependentUpon>Schedule.aspx</DependentUpon>
+    </Compile>
     <Compile Include="SignUp.aspx.cs">
       <DependentUpon>SignUp.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

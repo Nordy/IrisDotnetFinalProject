@@ -101,6 +101,7 @@ namespace BetterSchool.apis
             SqlDataAdapter tableAdapter = new SqlDataAdapter(sql, conn);
             DataTable dt = new DataTable();
             tableAdapter.Fill(dt);
+            conn.Close();
             return dt;
         }
 
