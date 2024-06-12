@@ -26,7 +26,7 @@ namespace BetterSchool
             title = Components.Title();
             status = true;
             error = "";
-            if (Request.Form["Submit"] != null)
+            if (Request.Form["submit"] != null)
             {
                 status = true;
                 error = "";

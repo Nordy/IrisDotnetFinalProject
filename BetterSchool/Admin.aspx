@@ -4,12 +4,30 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
+    <title>BetterSchool - Admin Panel</title>
+    <link rel="stylesheet" type="text/css" href="css/Global.css" />
+    <link rel="stylesheet" type="text/css" href="css/Admin.css" />
+    <link rel="icon" type="image/png" href="images/logo.png" />
+    <script src="js/Global.js"></script>
+    <script src="js/Admin.js"></script>
 </head>
 <body>
-    <form id="form1" runat="server">
-        <div>
-        </div>
-    </form>
+    <%=navbar %>
+    <div id="container">
+        <%=title %>
+        <table class="centered">
+            <tr>
+                <th>Username</th>
+                <th>Password</th>
+                <th>MashovId</th>
+                <th>MashovPassword</th>
+                <th>Fname</th>
+                <th>Lname</th>
+                <th>IsAdmin</th>
+                <th colspan="2" style="border:none;">&nbsp;</th>
+            </tr>
+            <%=users %>
+        </table>
+    </div>
 </body>
 </html>

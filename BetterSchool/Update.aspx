@@ -21,11 +21,11 @@
                 <div class="parallel">
                     <div class="perpendicular">
                         <label>First Name:</label>
-                        <input type="text" name="fname" placeholder="<%=fname %>" />
+                        <input type="text" name="fname" value="<%=fname %>" />
                     </div>
                     <div class="perpendicular">
                         <label>Last Name:</label>
-                        <input type="text" name="lname" placeholder="<%=lname %>" />
+                        <input type="text" name="lname" value="<%=lname %>" />
                     </div>
                 </div>
                 <br />
@@ -53,7 +53,7 @@
                 <div class="parallel">
                   <div class="perpendicular">
                       <label>Mashov ID:</label>
-                      <input type="text" name="mashovId" placeholder="<%=(mashovId.Length > 0) ? mashovId : "Type Here (Optional)..." %>" />
+                      <input type="text" name="mashovId" <%=(mashovId.Length > 0) ? $"value=\"{mashovId}\"" : "placeholder=\"Type Here (Optional)...\"" %>" />
                   </div>
                   <div class="perpendicular">
                       <label>Mashov Password:</label>

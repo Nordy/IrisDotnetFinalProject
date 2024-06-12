@@ -56,7 +56,7 @@ namespace BetterSchool
                 classes += $@"<label for=""{i}"">{list[i]}<input type=""checkbox"" id=""{i}"" onchange=""checkboxStatusChange()"" name=""class"" value=""{list[i]}"" /></label>";
             }
 
-            if (Request.Form["Submit"] != null)
+            if (Request.Form["submit"] != null)
             {
                 fname = (Check_Input(Request.Form["fname"])) ? Request.Form["fname"] : fname;
                 lname = (Check_Input(Request.Form["lname"])) ? Request.Form["lname"] : lname;
