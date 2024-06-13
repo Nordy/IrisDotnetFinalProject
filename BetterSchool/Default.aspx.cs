@@ -11,10 +11,7 @@ namespace BetterSchool
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (Session["isLoggedIn"] != null)
-                Response.Redirect("Dashboard.aspx");
-            else
-                Response.Redirect("Home.aspx");
+            Response.Redirect("Home.aspx");
         }
     }
 }

@@ -23,15 +23,7 @@ namespace BetterSchool.apis
         private static ChromeOptions options = new ChromeOptions();
         private static IWebDriver driver;
         private static WebDriverWait wait;
-        private static bool status = false;
 
-        /// <summary>
-        /// Gets the status of the database (false = unoccupied, true = occupied)
-        /// </summary>
-        public static bool GetStatus()
-        {
-            return status;
-        }
         /// <summary>
         /// Loops through the classes and updates each schedule
         /// </summary>
@@ -44,7 +36,6 @@ namespace BetterSchool.apis
             driver = new ChromeDriver(path, options);
             wait = new WebDriverWait(driver, TimeSpan.FromSeconds(10));
             driver.Navigate().GoToUrl(url);
-            status = true;
             foreach (string grade in classes)
             {
                 Console.WriteLine($"Current grade: {grade}");
@@ -52,7 +43,6 @@ namespace BetterSchool.apis
                 Thread.Sleep(1000);
             }
             driver.Close();
-            status = false;
 
         }
         /// <summary>
@@ -66,7 +56,6 @@ namespace BetterSchool.apis
             driver = new ChromeDriver(path, options);
             wait = new WebDriverWait(driver, TimeSpan.FromSeconds(10));
             driver.Navigate().GoToUrl(url);
-            status = true;
             foreach (string grade in classes)
             {
                 Console.WriteLine($"Current grade: {grade}");
@@ -74,7 +63,6 @@ namespace BetterSchool.apis
                 Thread.Sleep(1000);
             }
             driver.Close();
-            status = false;
         }
 
         /// <summary>
@@ -119,11 +107,24 @@ namespace BetterSchool.apis
             return new DataTable();
         }
 
+        /// <summary>
+        /// Empties only the changes
+        /// </summary>
         public static void CleanChanges()
         {
             string sql = $"DELETE FROM Tschedule WHERE operation!='0'";
             MyAdoHelper.DoQuery(fileName, sql);
         }
+        /// <summary>
+        /// Empties the database
+        /// </summary>
+        public static void CleanSchedules()
+        {
+            string sql = $"DELETE FROM Tschedule WHERE operation='0'";
+            MyAdoHelper.DoQuery(fileName, sql);
+            CleanChanges();
+        }
+
 
         /// <summary>
         /// Gets the changes and updates them
@@ -132,59 +133,63 @@ namespace BetterSchool.apis
         {
             ClickElement(By.LinkText("שינויים"));
             List<IWebElement> changeElements = new List<IWebElement>(driver.FindElements(By.ClassName("MsgCell")));
-            foreach (IWebElement element in changeElements)
-            {
-                string text = element.Text;
-                string date = text.Split(',')[0].Trim();
-                int lesson = int.Parse(text.Split(',')[1].Replace("שיעור", "").Trim());
-                string msg = text.Replace($"{text.Split(',')[0]},{text.Split(',')[1]}", "").Trim();
-                DateTime datetime;
-                if (DateTime.TryParseExact(date, "dd.MM.yyyy", CultureInfo.InvariantCulture, DateTimeStyles.None, out datetime))
+            IWebElement dropdownTd = driver.FindElement(By.Id("dnn_ctr1214_TimeTableView_TdClassesList"));
+            IWebElement dropdown = dropdownTd.FindElement(By.TagName("select"));
+            SelectElement select = new SelectElement(dropdown);
+
+            select.SelectByText(grade.Replace("\'\'", "\'"));
+            if (!(grade.Contains("(") || (grade.Contains(")")))) {
+                foreach (IWebElement element in changeElements)
                 {
-
-
-                    DateTime currentDate = DateTime.Now;
-
-                    int dayOfWeek = (int)currentDate.DayOfWeek;
-
-                    // Calculate the start of the current week (Sunday)
-                    DateTime startOfWeek = currentDate.AddDays(-(int)currentDate.DayOfWeek);
-
-                    // Calculate the end of the current week (Saturday)
-                    DateTime endOfWeek = startOfWeek.AddDays(6);
-
-                    // Check if the given date is within this week and not in the past
-                    bool isInThisWeekAndNotPast = datetime >= currentDate && datetime >= startOfWeek && datetime <= endOfWeek;
-                    if (datetime >= currentDate && datetime >= startOfWeek && datetime <= endOfWeek)
+                    string text = element.Text;
+                    string date = text.Split(',')[0].Trim();
+                    int lesson = int.Parse(text.Split(',')[1].Replace("שיעור", "").Trim());
+                    string msg = text.Replace($"{text.Split(',')[0]},{text.Split(',')[1]}", "").Trim();
+                    DateTime datetime;
+                    if (DateTime.TryParseExact(date, "dd.MM.yyyy", CultureInfo.InvariantCulture, DateTimeStyles.None, out datetime))
                     {
-                        string room = null;
-                        string teacher;
-                        int newLesson;
-                        dayOfWeek += 1;
-                        if (msg.Contains("ביטול שעור"))
-                        {
-                            teacher = msg.Split(',')[0].Trim();
-                            CancelLesson(lesson, dayOfWeek, grade, teacher);
-                        }
 
-                        else if (msg.Contains("החלפת חדר לקבוצה"))
+
+                        DateTime currentDate = DateTime.Now;
+
+                        int dayOfWeek = (int)currentDate.DayOfWeek;
+
+                        DateTime startOfWeek = currentDate.AddDays(-(int)currentDate.DayOfWeek);
+
+                        DateTime endOfWeek = startOfWeek.AddDays(6);
+
+                        if (datetime >= currentDate && datetime >= startOfWeek && datetime <= endOfWeek)
                         {
-                            teacher = msg.Split(',')[1].Replace("החלפת חדר לקבוצה", "").Trim();
-                            string[] roomSplits = msg.Split('-');
-                            room = roomSplits[roomSplits.Length - 1].Replace("לחדר", "").Trim();
-                            ChangeRoomOfLesson(lesson, dayOfWeek, grade, teacher, room);
+                            string room = null;
+                            string teacher;
+                            int newLesson;
+                            dayOfWeek += 1;
+                            if (msg.Contains("ביטול שעור"))
+                            {
+                                teacher = msg.Split(',')[0].Trim();
+                                CancelLesson(lesson, dayOfWeek, grade, teacher);
+                            }
+
+                            else if (msg.Contains("החלפת חדר לקבוצה"))
+                            {
+                                teacher = msg.Split(',')[1].Replace("החלפת חדר לקבוצה", "").Trim();
+                                string[] roomSplits = msg.Split('-');
+                                room = roomSplits[roomSplits.Length - 1].Replace("לחדר", "").Trim();
+                                ChangeRoomOfLesson(lesson, dayOfWeek, grade, teacher, room);
+
+                            }
+                            else if (msg.Contains("הזזת שיעור"))
+                            {
+                                teacher = msg.Split(':')[1].Split(',')[1];
+                                newLesson = int.Parse(msg.Split(',')[2].Split(new string[] { "לשיעור" }, StringSplitOptions.None)[1]);
+                                MoveLessonToDifferentTime(lesson, newLesson, dayOfWeek, grade, teacher);
+                            }
 
                         }
-                        else if (msg.Contains("הזזת שיעור"))
-                        {
-                            teacher = msg.Split(':')[1].Split(',')[1];
-                            newLesson = int.Parse(msg.Split(',')[2].Split(new string[] { "לשיעור" }, StringSplitOptions.None)[1]);
-                            MoveLessonToDifferentTime(lesson, newLesson, dayOfWeek, grade, teacher);
-                        }
-
                     }
                 }
             }
+            
         }
         /// <summary>
         /// Gets the schedule of a class 

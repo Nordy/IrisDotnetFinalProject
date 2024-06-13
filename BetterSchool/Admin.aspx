@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Admin.aspx.cs" Inherits="BetterSchool.Admin" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Admin.aspx.cs" Inherits="BetterSchool.Admin" %>
 
 <!DOCTYPE html>
 
@@ -17,8 +17,12 @@
         <%=title %>
         <form class="centered" runat="server" style="display:flex;gap: 2px;">
             <asp:Button runat="server" text="Update Schedules" OnClick="UpdateSchedules" />
-            <asp:Button runat="server" text="Clean Changes" OnClick="CleanChanges" />
+            <asp:Button runat="server" text="Clean Schedules" OnClick="CleanSchedules" />
             <asp:Button runat="server" text="Update Changes" OnClick="UpdateChanges" />
+            <asp:Button runat="server" text="Clean Grades" OnClick="CleanGrades" />
+            <asp:Button runat="server" text="Update Grades" OnClick="UpdateGrades" />
+            <asp:Button runat="server" text="Clean Upcoming" OnClick="CleanUpcoming" />
+            <asp:Button runat="server" text="Update Upcoming" OnClick="UpdateUpcoming" />
         </form>
         <div style="display:flex">
             <div id="searchContainer">

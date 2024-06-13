@@ -87,32 +87,35 @@
     <Content Include="bin\WebDriver.dll" />
     <Content Include="bin\WebDriver.Support.dll" />
     <Content Include="css\Admin.css" />
-    <Content Include="css\Dashboard.css" />
     <Content Include="css\Global.css" />
+    <Content Include="css\Grades.css" />
     <Content Include="css\Home.css" />
     <Content Include="css\Login.css" />
     <Content Include="css\Schedule.css" />
+    <Content Include="css\Upcoming.css" />
     <Content Include="css\Update.css" />
     <Content Include="css\SignUp.css" />
-    <Content Include="Dashboard.aspx" />
     <Content Include="Default.aspx" />
+    <Content Include="Grades.aspx" />
     <Content Include="Home.aspx" />
     <Content Include="images\gitLogo.jpeg" />
     <Content Include="images\home.png" />
     <Content Include="images\logo.png" />
     <Content Include="images\timetable.png" />
     <Content Include="js\Admin.js" />
-    <Content Include="js\Dashboard.js" />
     <Content Include="js\Global.js" />
+    <Content Include="js\Grades.js" />
     <Content Include="js\Home.js" />
     <Content Include="js\Login.js" />
     <Content Include="js\Schedule.js" />
+    <Content Include="js\Upcoming.js" />
     <Content Include="js\Update.js" />
     <Content Include="js\SignUp.js" />
     <Content Include="Login.aspx" />
     <Content Include="Logout.aspx" />
     <Content Include="Schedule.aspx" />
     <Content Include="SignUp.aspx" />
+    <Content Include="Upcoming.aspx" />
     <Content Include="Update.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -124,22 +127,23 @@
     <Compile Include="Admin.aspx.designer.cs">
       <DependentUpon>Admin.aspx</DependentUpon>
     </Compile>
+    <Compile Include="apis\MashovApi.cs" />
     <Compile Include="apis\MyAdoHelperSQL.cs" />
     <Compile Include="apis\ShahafApi.cs" />
     <Compile Include="Components.cs" />
-    <Compile Include="Dashboard.aspx.cs">
-      <DependentUpon>Dashboard.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Dashboard.aspx.designer.cs">
-      <DependentUpon>Dashboard.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Grades.aspx.cs">
+      <DependentUpon>Grades.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Grades.aspx.designer.cs">
+      <DependentUpon>Grades.aspx</DependentUpon>
     </Compile>
     <Compile Include="Home.aspx.cs">
       <DependentUpon>Home.aspx</DependentUpon>
@@ -176,6 +180,13 @@
     </Compile>
     <Compile Include="SignUp.aspx.designer.cs">
       <DependentUpon>SignUp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Upcoming.aspx.cs">
+      <DependentUpon>Upcoming.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Upcoming.aspx.designer.cs">
+      <DependentUpon>Upcoming.aspx</DependentUpon>
     </Compile>
     <Compile Include="Update.aspx.cs">
       <DependentUpon>Update.aspx</DependentUpon>

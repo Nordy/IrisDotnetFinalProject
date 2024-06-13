@@ -50,7 +50,7 @@ namespace BetterSchool
                     Session["fname"] = table.Rows[0]["fname"];
                     Session["lname"] = table.Rows[0]["lname"];
                     Session["isLoggedIn"] = true;
-                    Response.Redirect("Dashboard.aspx");
+                    Response.Redirect("Home.aspx");
 
                 } else
                 {

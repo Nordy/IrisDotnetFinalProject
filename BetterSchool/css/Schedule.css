@@ -37,7 +37,7 @@ input {
 
 .lesson {
     padding: 10px;
-    text-align: right;
+    text-align: center;
     display: flex;
     flex-direction: column;
 }
@@ -65,10 +65,17 @@ input {
 
 .subjectMove {
     background-color: red;
+    color: black;
 }
 
-.subjectdd {
+.subjectadd {
     background-color: greenyellow;
+    color: black;
+}
+
+.subjectMoveRoom {
+    background-color: greenyellow;
+    color: black;
 }
 
 .selectBox {

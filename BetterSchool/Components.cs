@@ -29,9 +29,9 @@ namespace BetterSchool
             {
 
                 element += $@"
-                    <li><a href=""Dashboard.aspx"" class=""navButton {(currentPage == "Dashboard" ? "navSelected" : "")}"">
+                    <li><a href=""Home.aspx"" class=""navButton {(currentPage == "Home" ? "navSelected" : "")}"">
                         <div class=""fa fa-home""></div>
-                        Dashboard
+                        Home
                     </a></li>
                     <li><a href=""Schedule.aspx"" class=""navButton {(currentPage == "Schedule" ? "navSelected" : "")}"">
                         <div class=""fa fa-calendar""></div>

@@ -47,7 +47,7 @@ namespace BetterSchool
             }
             if (Session["isLoggedIn"] != null)
             {
-                string selectSql = $"SELECT * FROM Tusers WHERE username='{Session["username"]}'";
+                string selectSql = $"SELECT * FROM Tusers WHERE username=N'{Session["username"]}'";
                 table = MyAdoHelper.ExecuteDataTable(fileName, selectSql);
                 currentGrade = (string)table.Rows[0]["class"];
                 string[] gradesUnfiltered = currentGrade.Split(',');
@@ -107,10 +107,10 @@ namespace BetterSchool
                                 <div class=""subject {((int)table.Rows[i]["operation"] == 1 ? "subjectCancel"
                                 : (int)table.Rows[i]["operation"] == 3 ? "subjectMove"
                                 : (int)table.Rows[i]["operation"] == 4 ? "subjectAdd" : "")}"">
-                                    <h3>{table.Rows[i]["subject"]} {table.Rows[i]["operation"]}</h3>
+                                    <h3>{table.Rows[i]["subject"]}</h3>
                                     <p>{(table.Rows[i]["teacher"] != DBNull.Value ? table.Rows[i]["teacher"] : "")}</p>
                                     <p>{(table.Rows[i]["teacher"] != DBNull.Value && table.Rows[i]["room"] != DBNull.Value ? "•" : "")}</p>
-                                    <p>{(table.Rows[i]["room"] != DBNull.Value ? table.Rows[i]["room"] : "")}</p>
+                                    <p {((int)table.Rows[i]["operation"] == 2 ? "class=\"subjectMoveRoom\"" : "")}>{(table.Rows[i]["room"] != DBNull.Value ? table.Rows[i]["room"] : "")}</p>
                                 </div>
                             ";
                         }

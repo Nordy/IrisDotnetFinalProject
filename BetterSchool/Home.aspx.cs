@@ -13,11 +13,7 @@ namespace BetterSchool
         public string title;
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (Session["isLoggedIn"] != null)
-            {
-                Response.Redirect("Dashboard.aspx");
-                return;
-            }
+
             navbar = Components.Navbar((Session["isLoggedIn"] != null ? (bool)Session["isLoggedIn"] : false), "Home", (Session["isAdmin"] != null ? (bool)Session["isAdmin"] : false), (Session["fname"] != null ? (string)Session["fname"] : null));
             title = Components.Title();
         }

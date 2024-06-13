@@ -1,0 +1,21 @@
+﻿.gradeContainer {
+    border: solid 2px rgb(40, 40, 40);
+    width: 40%;
+    direction: rtl;
+    flex-direction: row-reverse;
+    margin-left: auto;
+}
+
+.gradeContainer:nth-child(2n) {
+    background-color: rgb(40, 40, 40);
+}
+
+.gradeContainer h2 {
+    margin-right: auto;
+    margin-left: 20px;
+}
+
+.gradeContainer div h2, p {
+    margin: 5px;
+}
+

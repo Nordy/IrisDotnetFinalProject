@@ -68,7 +68,7 @@ namespace BetterSchool
                 MyAdoHelper.DoQuery(fileName, sql);
                 Session["fname"] = fname;
                 Session["lname"] = lname;
-                Response.Redirect("Dashboard.aspx");
+                Response.Redirect("Home.aspx");
             }
 
         }

@@ -143,14 +143,30 @@ namespace BetterSchool
         {
             ShahafApi.UpdateSchedules();
         }
-        protected void CleanChanges(object sender, EventArgs e)
+        protected void CleanSchedules(object sender, EventArgs e)
         {
-            ShahafApi.CleanChanges();        
+            ShahafApi.CleanSchedules();        
         }
 
         protected void UpdateChanges(object sender, EventArgs e)
         {
             ShahafApi.UpdateChanges();
+        }
+        protected void CleanGrades(object sender, EventArgs e)
+        {
+            MashovApi.CleanGrades();
+        }
+        protected void UpdateGrades(object sender, EventArgs e)
+        {
+            MashovApi.UpdateGrades();
+        }
+        protected void CleanUpcoming(object sender, EventArgs e)
+        {
+            MashovApi.CleanUpcoming();
+        }
+        protected void UpdateUpcoming(object sender, EventArgs e)
+        {
+            MashovApi.UpdateUpcoming();
         }
     }
 }
