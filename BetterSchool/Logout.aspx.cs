@@ -16,11 +16,7 @@ namespace BetterSchool
                 Response.Redirect("Login.aspx");
                 return;
             }
-            Session["username"] = null;
-            Session["isAdmin"] = null;
-            Session["fname"] = null;
-            Session["lname"] = null;
-            Session["isLoggedIn"] = null;
+            Session.Abandon();
             Response.Redirect("Home.aspx");
         }
     }
